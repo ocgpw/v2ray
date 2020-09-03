@@ -211,7 +211,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <td align="center">1 G</td>
 <td align="center">300GB / 月</td>
 <td align="center"><strong>$39.99 / 年</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/71" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><del>购买</del></td>
 </tr>
 
 <tr>
@@ -222,7 +222,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <td align="center">1 G</td>
 <td align="center">500GB / 月</td>
 <td align="center"><strong>$49.99 / 年</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/94" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><del>购买</del></td>
 </tr>
 
 <tr>
@@ -232,7 +232,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <td align="center">20 GB</td>
 <td align="center">1 G</td>
 <td align="center">1000GB / 月</td>
-<td align="center"><strong>$25.99 / 季</strong></td>
+<td align="center"><strong>$31.99 / 季</strong></td>
 <td align="center"><a href="https://on.affpass.com/go/bwg/72" rel="nofollow" target="_blank">购买</a></td>
 </tr>
 
@@ -243,7 +243,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <td align="center">40 GB</td>
 <td align="center">1 G</td>
 <td align="center">2000GB / 月</td>
-<td align="center">$51.99 / 季</td>
+<td align="center">$61.99 / 季</td>
 <td align="center"><a href="https://on.affpass.com/go/bwg/73" rel="nofollow" target="_blank">购买</a></td>
 </tr>
 
@@ -254,7 +254,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <td align="center">80 GB</td>
 <td align="center">1 G</td>
 <td align="center">3000GB / 月</td>
-<td align="center">$32.99 / 月</td>
+<td align="center">$39.99 / 月</td>
 <td align="center"><a href="https://on.affpass.com/go/bwg/74" rel="nofollow" target="_blank">购买</a></td>
 </tr>
 
@@ -265,7 +265,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <td align="center">160 GB</td>
 <td align="center">1 G</td>
 <td align="center">5000GB / 月</td>
-<td align="center">$62.99 / 月</td>
+<td align="center">$75.99 / 月</td>
 <td align="center"><a href="https://on.affpass.com/go/bwg/75" rel="nofollow" target="_blank">购买</a></td>
 </tr>
 
@@ -276,7 +276,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <td align="center">320 GB</td>
 <td align="center">1 G</td>
 <td align="center">8000GB / 月</td>
-<td align="center">$119.99 / 月</td>
+<td align="center">$143.99 / 月</td>
 <td align="center"><a href="https://on.affpass.com/go/bwg/76" rel="nofollow" target="_blank">购买</a></td>
 </tr>
 
@@ -473,7 +473,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <td align="center">1 G</td>
 <td align="center">300GB / 月</td>
 <td align="center"><strong>$39.99 / 年</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/71" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><del>购买</del></td>
 </tr>
 
 <tr>
@@ -484,7 +484,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <td align="center">1 G</td>
 <td align="center">500GB / 月</td>
 <td align="center"><strong>$49.99 / 年</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/94" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><del>购买</del></td>
 </tr>
 
 <tr>
@@ -494,7 +494,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <td align="center">20 GB</td>
 <td align="center">1 G</td>
 <td align="center">1000GB / 月</td>
-<td align="center"><strong>$25.99 / 季</strong></td>
+<td align="center"><strong>$31.99 / 季</strong></td>
 <td align="center"><a href="https://on.affpass.com/go/bwg/72" rel="nofollow" target="_blank">购买</a></td>
 </tr>
 
@@ -505,7 +505,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <td align="center">20 GB</td>
 <td align="center"><strong>2.5 G</strong></td>
 <td align="center">1000GB / 月</td>
-<td align="center"><strong>$65.99 / 半年</strong></td>
+<td align="center"><strong>$49.99 / 季</strong></td>
 <td align="center"><a href="https://on.affpass.com/go/bwg/87" rel="nofollow" target="_blank">购买</a></td>
 </tr>
 
