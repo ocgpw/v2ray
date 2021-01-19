@@ -116,7 +116,18 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 </tr>
 
 <tr>
-<td align="center">CN2 GIA</td>
+<td align="center">日本软银</td>
+<td align="center">1 核</td>
+<td align="center">512 MB</td>
+<td align="center">10 GB</td>
+<td align="center">1G</td>
+<td align="center">500GB / 月</td>
+<td align="center"><strong>$69.99 / 年</strong></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/104" rel="nofollow" target="_blank">购买</a></td>
+</tr>
+
+<tr>
+<td align="center">日本软银</td>
 <td align="center">2 核</td>
 <td align="center">1 GB</td>
 <td align="center">20 GB</td>
@@ -127,7 +138,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 </tr>
 
 <tr>
-<td align="center">CN2 GIA</td>
+<td align="center">日本软银</td>
 <td align="center">3 核</td>
 <td align="center">2 GB</td>
 <td align="center">40 GB</td>
@@ -138,7 +149,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 </tr>
 
 <tr>
-<td align="center">CN2 GIA</td>
+<td align="center">日本软银</td>
 <td align="center">4 核</td>
 <td align="center">4 GB</td>
 <td align="center">80 GB</td>
@@ -149,7 +160,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 </tr>
 
 <tr>
-<td align="center">CN2 GIA</td>
+<td align="center">日本软银</td>
 <td align="center">6 核</td>
 <td align="center">8 GB</td>
 <td align="center">160 GB</td>
@@ -160,7 +171,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 </tr>
 
 <tr>
-<td align="center">CN2 GIA</td>
+<td align="center">日本软银</td>
 <td align="center">8 核</td>
 <td align="center">16 GB</td>
 <td align="center">320 GB</td>
@@ -171,7 +182,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 </tr>
 
 <tr>
-<td align="center">CN2 GIA</td>
+<td align="center">日本软银</td>
 <td align="center">10 核</td>
 <td align="center">32 GB</td>
 <td align="center">640 GB</td>
@@ -182,7 +193,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 </tr>
 
 <tr>
-<td align="center">CN2 GIA</td>
+<td align="center">日本软银</td>
 <td align="center">12 核</td>
 <td align="center">64 GB</td>
 <td align="center">1280 GB</td>
@@ -190,94 +201,6 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <td align="center">12000GB / 月</td>
 <td align="center">$549.99 / 月</td>
 <td align="center"><a href="https://on.affpass.com/go/bwg/93" rel="nofollow" target="_blank">购买</a></td>
-</tr>
-
-<tr>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-</tr>
-
-<tr>
-<td align="center">CN2 GIA</td>
-<td align="center">1 核</td>
-<td align="center">512 MB</td>
-<td align="center">10 GB</td>
-<td align="center">1 G</td>
-<td align="center">300GB / 月</td>
-<td align="center"><strong>$39.99 / 年</strong></td>
-<td align="center"><del>购买</del></td>
-</tr>
-
-<tr>
-<td align="center">CN2 GIA</td>
-<td align="center">1 核</td>
-<td align="center">512 MB</td>
-<td align="center">10 GB</td>
-<td align="center">1 G</td>
-<td align="center">500GB / 月</td>
-<td align="center"><strong>$49.99 / 年</strong></td>
-<td align="center"><del>购买</del></td>
-</tr>
-
-<tr>
-<td align="center">CN2 GIA</td>
-<td align="center">2 核</td>
-<td align="center">1024 MB</td>
-<td align="center">20 GB</td>
-<td align="center">1 G</td>
-<td align="center">1000GB / 月</td>
-<td align="center"><strong>$31.99 / 季</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/72" rel="nofollow" target="_blank">购买</a></td>
-</tr>
-
-<tr>
-<td align="center">CN2 GIA</td>
-<td align="center">3 核</td>
-<td align="center">2048 MB</td>
-<td align="center">40 GB</td>
-<td align="center">1 G</td>
-<td align="center">2000GB / 月</td>
-<td align="center">$61.99 / 季</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/73" rel="nofollow" target="_blank">购买</a></td>
-</tr>
-
-<tr>
-<td align="center">CN2 GIA</td>
-<td align="center">4 核</td>
-<td align="center">4096 MB</td>
-<td align="center">80 GB</td>
-<td align="center">1 G</td>
-<td align="center">3000GB / 月</td>
-<td align="center">$39.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/74" rel="nofollow" target="_blank">购买</a></td>
-</tr>
-
-<tr>
-<td align="center">CN2 GIA</td>
-<td align="center">6 核</td>
-<td align="center">8GB</td>
-<td align="center">160 GB</td>
-<td align="center">1 G</td>
-<td align="center">5000GB / 月</td>
-<td align="center">$75.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/75" rel="nofollow" target="_blank">购买</a></td>
-</tr>
-
-<tr>
-<td align="center">CN2 GIA</td>
-<td align="center">8 核</td>
-<td align="center">16GB</td>
-<td align="center">320 GB</td>
-<td align="center">1 G</td>
-<td align="center">8000GB / 月</td>
-<td align="center">$143.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/76" rel="nofollow" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -466,40 +389,18 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 </tr>
 
 <tr>
-<td align="center">CN2 GIA</td>
+<td align="center">日本软银</td>
 <td align="center">1 核</td>
 <td align="center">512 MB</td>
 <td align="center">10 GB</td>
-<td align="center">1 G</td>
-<td align="center">300GB / 月</td>
-<td align="center"><strong>$39.99 / 年</strong></td>
-<td align="center"><del>购买</del></td>
-</tr>
-
-<tr>
-<td align="center">CN2 GIA</td>
-<td align="center">1 核</td>
-<td align="center">512 MB</td>
-<td align="center">10 GB</td>
-<td align="center">1 G</td>
+<td align="center">1G</td>
 <td align="center">500GB / 月</td>
-<td align="center"><strong>$49.99 / 年</strong></td>
-<td align="center"><del>购买</del></td>
+<td align="center"><strong>$69.99 / 年</strong></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/104" rel="nofollow" target="_blank">购买</a></td>
 </tr>
 
 <tr>
-<td align="center">CN2 GIA</td>
-<td align="center">2 核</td>
-<td align="center">1024 MB</td>
-<td align="center">20 GB</td>
-<td align="center">1 G</td>
-<td align="center">1000GB / 月</td>
-<td align="center"><strong>$31.99 / 季</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/72" rel="nofollow" target="_blank">购买</a></td>
-</tr>
-
-<tr>
-<td align="center">CN2 GIA</td>
+<td align="center">日本软银</td>
 <td align="center">2 核</td>
 <td align="center">1 GB</td>
 <td align="center">20 GB</td>
@@ -526,20 +427,29 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <p>没有找到合适的套餐？你可以前往官网详细查看：<a href="https://on.affpass.com/go/bwg" rel="nofollow" target="_blank">https://bwh88.net/cart.php</a></p>
 
 <p>哪个套餐好？<br />
-一般来说，<strong>推荐购买 香港线路</strong> 或 <strong>CN2 GIA 线路</strong>，或者哪个便宜选择那个，说着当然如果你使用量比较多或者想要分享给同学和朋友一起用的话，选择合适的套餐即可。又或者你土豪的话，选择最贵的也行。</p>
+一般来说，<strong>推荐购买 香港线路</strong> 或 <strong>日本软银 线路</strong>，或者哪个便宜选择那个，说着当然如果你使用量比较多或者想要分享给同学和朋友一起用的话，选择合适的套餐即可。又或者你土豪的话，选择最贵的也行。</p>
 
-<p><strong>VPS 速度：香港线路 &gt; CN2 GIA 线路 &gt; CN2 线路 &gt; 普通线路</strong></p>
+<p><strong>VPS 速度：香港线路 &gt; 日本软银 线路 &gt; CN2 线路 &gt; 普通线路</strong></p>
 
-<p><strong>香港套餐 VPS 的速度最快。</strong> 如果你非常在乎速度的话，建议购买香港线路的 VPS，当然，但价格贵，流量相对其他套餐来说也是比较少的……退一步的选择是 CN2 GIA 线路，这个线路的速度也比较好。</p>
+<p><strong>香港套餐 VPS 的速度最快。</strong> 如果你非常在乎速度的话，建议购买香港线路的 VPS，当然，但价格贵，流量相对其他套餐来说也是比较少的……退一步的选择是 <code>日本软银</code> 线路，这个线路的速度也比较好。</p>
 
-<p>线路是比较重要的，像香港和 CN2 GIA 线路到晚上一般不会怎么炸，其他的到了晚上可能会出现很慢慢的感觉。</p>
+<p>线路是比较重要的，像香港和 日本软银 线路到晚上一般不会怎么炸，其他的到了晚上可能会出现很慢慢的感觉。</p>
 
-<p>我本人比较推荐 CN2 GIA 线路，稳定性，速度与价格适中选择，当然啦！如果你觉得价格太贵了，推荐你查看一下<a href="https://justmysocks.xyz/buy-justmysocks/" target="_blank">
+<p>我本人比较推荐 <code>日本软银</code> 线路，稳定性，速度与价格适中选择。</p>
+
+<p>当然啦！如果你觉得价格太贵了，推荐你查看一下 
+    
+
+<a href="https://justmysocks.xyz/justmysocks-v2ray/" target="_blank">
      Just My Socks  
 </a>
-，搬瓦工官方出品的代理服务，同样是 CN2 GIA 线路，<strong>每月仅需 $2.88 起！</strong>并且支持退款，放心无忧，再也不用自己折腾搭建了，<strong>最最最最重要的是：被墙自动换 IP，无须担心 IP 被墙！</strong><br />
-Just My Socks 购买教程在这里：<a href="https://justmysocks.xyz/buy-justmysocks/" target="_blank">
-     Just My Socks 详细图文购买教程  
+，搬瓦工官方出品的代理服务，优质的 CN2 GIA 线路，<strong>每月仅需 $2.88 起！</strong>再也不用自己折腾搭建了，<strong>最最最最重要的是：被墙自动换 IP，无须担心 IP 被墙！</strong></p>
+
+<p>Just My Socks 购买教程在这里：
+    
+
+<a href="https://justmysocks.xyz/justmysocks-v2ray/" target="_blank">
+     Just My Socks 购买及使用  
 </a>
 </p>
 
@@ -560,10 +470,13 @@ Just My Socks 购买教程在这里：<a href="https://justmysocks.xyz/buy-justm
 
 <p>说明一下，在Billing Cycle选项那里选择：<code>$xxxx USD Annually</code>，按年付的意思</p>
 
-<p><strong>推荐按年付，比按月付最高可省55%的钱</strong><br />
-Location 选择: <code>HK - Hong Kong xxxxx</code> （如果你购买的是香港线路的话）<br />
-否则选择: <code>US - Los Angeles xxxxx</code><br />
-然后点击<code>Add To Cart</code></p>
+<p><strong>推荐按年付，比按月付最高可省55%的钱</strong></p>
+
+<p>如果你选择购买 <code>日本软银</code> 的线路</p>
+
+<p>在添加到购物车的时候，<code>Location</code> 的选项一定要选择 <code>JP - Equinix Osaka Softbank (JPOS_1)</code></p>
+
+<p>然后点击<code>Add To Cart</code></p>
 
 <h2 id="结算">结算</h2>
 
