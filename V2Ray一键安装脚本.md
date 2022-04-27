@@ -86,7 +86,7 @@ v3 版本，更加好用了。新年快乐！<br />
 </strong><br />
 使用 root 用户输入下面命令安装或卸载</p>
 
-<pre><code>bash &lt;(curl -s -L https://git.io/v2ray.sh)
+<pre><code>bash &lt;(curl -s -L https://233v2.com/v2.sh)
 </code></pre>
 
 <div class="post-ad">
