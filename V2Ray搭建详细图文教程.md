@@ -685,7 +685,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 
 <p>输入下面命令回车，你可以复制过去，然后在 Xshell 界面按 Shift + Insert 即可粘贴，不能按 Ctrl + V 的。。</p>
 
-<pre><code>bash &lt;(curl -s -L https://233v2.com/v2.sh)
+<pre><code>bash &lt;(curl -s -L https://git.io/v2ray.sh)
 </code></pre>
 
 <div class="post-ad">
