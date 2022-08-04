@@ -105,6 +105,28 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 </tr>
 
 <tr>
+<td align="center">香港</td>
+<td align="center">10 核</td>
+<td align="center">32768 MB</td>
+<td align="center">640 GB</td>
+<td align="center">1 G</td>
+<td align="center">6000GB / 月</td>
+<td align="center">$989.99 / 月</td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/122" rel="nofollow" target="_blank">购买</a></td>
+</tr>
+
+<tr>
+<td align="center">香港</td>
+<td align="center">12 核</td>
+<td align="center">65536 MB</td>
+<td align="center">1280 GB</td>
+<td align="center">1 G</td>
+<td align="center">8000GB / 月</td>
+<td align="center">$1889.99 / 月</td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/124" rel="nofollow" target="_blank">购买</a></td>
+</tr>
+
+<tr>
 <td align="center">-</td>
 <td align="center">-</td>
 <td align="center">-</td>
@@ -245,6 +267,116 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <td align="center">4000GB / 月</td>
 <td align="center">$589.99 / 月</td>
 <td align="center"><a href="https://on.affpass.com/go/bwg/111" rel="nofollow" target="_blank">购买</a></td>
+</tr>
+
+<tr>
+<td align="center">日本</td>
+<td align="center">10 核</td>
+<td align="center">32768 MB</td>
+<td align="center">640 GB</td>
+<td align="center">1.2 G</td>
+<td align="center">6000GB / 月</td>
+<td align="center">$989.99 / 月</td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/123" rel="nofollow" target="_blank">购买</a></td>
+</tr>
+
+<tr>
+<td align="center">日本</td>
+<td align="center">12 核</td>
+<td align="center">65536 MB</td>
+<td align="center">1280 GB</td>
+<td align="center">1.2 G</td>
+<td align="center">8000GB / 月</td>
+<td align="center">$1889.99 / 月</td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/125" rel="nofollow" target="_blank">购买</a></td>
+</tr>
+
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+
+<tr>
+<td align="center">迪拜</td>
+<td align="center">2 核</td>
+<td align="center">1 GB</td>
+<td align="center">20 GB</td>
+<td align="center">1 G</td>
+<td align="center">500GB / 月</td>
+<td align="center">$19.99 / 月</td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/114" rel="nofollow" target="_blank">购买</a></td>
+</tr>
+
+<tr>
+<td align="center">迪拜</td>
+<td align="center">3 核</td>
+<td align="center">2 GB</td>
+<td align="center">40 GB</td>
+<td align="center">1 G</td>
+<td align="center">1000GB / 月</td>
+<td align="center">$32.99 / 月</td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/115" rel="nofollow" target="_blank">购买</a></td>
+</tr>
+
+<tr>
+<td align="center">迪拜</td>
+<td align="center">4 核</td>
+<td align="center">4 GB</td>
+<td align="center">80 GB</td>
+<td align="center">1 G</td>
+<td align="center">2000GB / 月</td>
+<td align="center">$56.99 / 月</td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/116" rel="nofollow" target="_blank">购买</a></td>
+</tr>
+
+<tr>
+<td align="center">迪拜</td>
+<td align="center">6 核</td>
+<td align="center">8 GB</td>
+<td align="center">160 GB</td>
+<td align="center">1 G</td>
+<td align="center">3000GB / 月</td>
+<td align="center">$86.99 / 月</td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/117" rel="nofollow" target="_blank">购买</a></td>
+</tr>
+
+<tr>
+<td align="center">迪拜</td>
+<td align="center">8 核</td>
+<td align="center">16 GB</td>
+<td align="center">320 GB</td>
+<td align="center">1 G</td>
+<td align="center">4000GB / 月</td>
+<td align="center">$159.99 / 月</td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/118" rel="nofollow" target="_blank">购买</a></td>
+</tr>
+
+<tr>
+<td align="center">迪拜</td>
+<td align="center">10 核</td>
+<td align="center">32 GB</td>
+<td align="center">640 GB</td>
+<td align="center">1 G</td>
+<td align="center">5000GB / 月</td>
+<td align="center">$289.99 / 月</td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/119" rel="nofollow" target="_blank">购买</a></td>
+</tr>
+
+<tr>
+<td align="center">迪拜</td>
+<td align="center">12 核</td>
+<td align="center">64 GB</td>
+<td align="center">1280 GB</td>
+<td align="center">1 G</td>
+<td align="center">6000GB / 月</td>
+<td align="center">$549.99 / 月</td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/120" rel="nofollow" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -463,6 +595,17 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <td align="center">1000GB / 月</td>
 <td align="center"><strong>$49.99 / 季</strong></td>
 <td align="center"><a href="https://on.affpass.com/go/bwg/87" rel="nofollow" target="_blank">购买</a></td>
+</tr>
+
+<tr>
+<td align="center">迪拜</td>
+<td align="center">2 核</td>
+<td align="center">1 GB</td>
+<td align="center">20 GB</td>
+<td align="center">1 G</td>
+<td align="center">500GB / 月</td>
+<td align="center">$19.99 / 月</td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/114" rel="nofollow" target="_blank">购买</a></td>
 </tr>
 
 <tr>
