@@ -638,7 +638,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <p>当然啦！如果你觉得价格太贵了，推荐你查看一下 
     
 
-<a href="https://justmysocks.xyz/justmysocks-v2ray/" target="_blank">
+<a href="https://getjms.com" target="_blank">
      Just My Socks  
 </a>
 ，搬瓦工官方出品的代理服务，优质的 CN2 GIA 线路，<strong>每月仅需 $2.88 起！</strong>再也不用自己折腾搭建了，<strong>最最最最重要的是：被墙自动换 IP，无须担心 IP 被墙！</strong></p>
@@ -646,7 +646,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <p>Just My Socks 购买教程在这里：
     
 
-<a href="https://justmysocks.xyz/justmysocks-v2ray/" target="_blank">
+<a href="https://getjms.com" target="_blank">
      Just My Socks 购买及使用  
 </a>
 </p>
