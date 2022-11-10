@@ -622,7 +622,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 </table>
 
 
-<p>没有找到合适的套餐？你可以前往官网详细查看：<a href="https://on.affpass.com/go/bwg" rel="nofollow" target="_blank">https://bwh88.net/cart.php</a></p>
+<p>没有找到合适的套餐？你可以前往官网详细查看：<a href="https://on.affpass.com/go/bwg" rel="nofollow" target="_blank">https://bwh89.net/cart.php</a></p>
 
 <p>哪个套餐好？<br />
 一般来说，<strong>推荐购买 香港线路</strong> 或 <strong>CN2 GIA 线路</strong>，或者哪个便宜选择那个，说着当然如果你使用量比较多或者想要分享给同学和朋友一起用的话，选择合适的套餐即可。又或者你土豪的话，选择最贵的也行。</p>
@@ -1013,8 +1013,8 @@ ISP 常作怪，用 动态端口<br />
 <h2 id="反馈问题">反馈问题</h2>
 
 <p>请先查阅：<a href="https://233v2.com/post/10/">V2Ray 一键安装脚本疑问集合</a><br />
-Telegram 群组：<a href="https://t.me/blog233" rel="nofollow" target="_blank">
-     https://t.me/blog233 
+Telegram 群组：<a href="https://t.me/tg2333" rel="nofollow" target="_blank">
+     https://t.me/tg2333 
 </a>
 <br />
 Github 反馈：<a href="https://github.com/233boy/v2ray/issues" rel="nofollow" target="_blank">
