@@ -772,18 +772,18 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 
 <p>Xshell 是一个易用的 SSH 客户端，要登录 VPS，当然需要 SSH 客户端</p>
 
-<p><a href="https://fingerit-my.sharepoint.com/:u:/g/personal/ai_fingertc_com/EeP_cDRqGvpMtLoaJc1zk5AB-nDlc71rt9fQWIH4I5ShPg?e=jvAzk6" rel="nofollow" target="_blank">Xshell 下载链接点我</a></p>
+<p><a href="https://file.affpass.com/file/Xshell+Xftp.zip" rel="nofollow" target="_blank">Xshell 下载链接点我</a></p>
 
 <p>这是一个绿色版本的 Xshell ，打开链接后，就点击 <code>下载</code>，下载好了之后，就双击打开，然后点击 <code>浏览...</code> 可以选择解压的路径，比如说 D 盘，之后再选择 <code>解压</code> 即可。</p>
 
 
-<img src="https://i.loli.net/2018/12/27/5c24f0c995b84.jpg" alt="解压 Xshell">
+<img src="https://i.loli.net/2018/12/27/5c24f0c995b84.jpg" alt="解压 Xshell" loading="lazy" referrerPolicy="no-referrer">
 
 
-<p>然后在解压的目录找到 <code>Xshell+Xftp 绿色版本</code> 文件夹，打开它，之后找到 <code>!安装.bat</code> 并且右键选择 <code>以管理员身份运行</code>，安装完成后会有一个提示窗口，关闭即可。这样来就安装好了 Xshell</p>
+<p>然后在解压的目录找到 <code>Xshell+Xftp</code> 文件夹，打开它，之后找到 <code>!安装.bat</code> 并且右键选择 <code>以管理员身份运行</code>，安装完成后会有一个提示窗口，关闭即可。这样来就安装好了 Xshell</p>
 
 
-<img src="https://i.loli.net/2018/12/27/5c24f0c9994a4.jpg" alt="安装 Xshell">
+<img src="https://i.loli.net/2018/12/27/5c24f0c9994a4.jpg" alt="安装 Xshell" loading="lazy" referrerPolicy="no-referrer">
 
 
 <h2 id="登录vps">登录VPS</h2>
