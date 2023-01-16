@@ -61,6 +61,28 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 
 <tbody>
 <tr>
+<td align="center">THE PLAN</td>
+<td align="center">2 核</td>
+<td align="center">2048 MB</td>
+<td align="center">40 GB</td>
+<td align="center">2.5 G</td>
+<td align="center">1000GB / 月</td>
+<td align="center"><strong>$99.99 / 月</strong></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/129" rel="nofollow" target="_blank">购买</a></td>
+</tr>
+
+<tr>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+
+<tr>
 <td align="center">香港</td>
 <td align="center">2 核</td>
 <td align="center">2048 MB</td>
@@ -565,6 +587,17 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 
 <tbody>
 <tr>
+<td align="center">THE PLAN 推荐**</td>
+<td align="center">2 核</td>
+<td align="center">2048 MB</td>
+<td align="center">40 GB</td>
+<td align="center">2.5 G</td>
+<td align="center">1000GB / 月</td>
+<td align="center"><strong>$99.99 / 月</strong></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/129" rel="nofollow" target="_blank">购买</a></td>
+</tr>
+
+<tr>
 <td align="center">普通</td>
 <td align="center">2 核</td>
 <td align="center">1024 MB</td>
@@ -627,6 +660,8 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <p>哪个套餐好？<br />
 一般来说，<strong>推荐购买 香港线路</strong> 或 <strong>CN2 GIA 线路</strong>，或者哪个便宜选择那个，说着当然如果你使用量比较多或者想要分享给同学和朋友一起用的话，选择合适的套餐即可。又或者你土豪的话，选择最贵的也行。</p>
 
+<p>2023-1-15 更新，限时推荐 <strong>THE PLAN 套餐</strong>，17 机房可切换，基本所有线路都集齐了。</p>
+
 <p><strong>VPS 速度：香港线路 &gt; 日本线路 &gt; CN2 GIA 线路 &gt; CN2 线路 &gt; 普通线路</strong></p>
 
 <p><strong>香港套餐 VPS 的速度最快。</strong> 如果你非常在乎速度的话，建议购买香港线路的 VPS，当然，但价格贵，流量相对其他套餐来说也是比较少的……退一步的选择是 <code>CN2 GIA</code> 线路，这个线路的速度也比较好。</p>
@@ -672,7 +707,15 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 
 <p>如果你选择购买 <code>CN2 GIA</code> 的线路</p>
 
-<p>在添加到购物车的时候，<code>Location</code> 的选项可以选择 <code>JP - Equinix Osaka Softbank (JPOS_1)</code></p>
+<p>在添加到购物车的时候，<code>Location</code> 的选项，可以选择 <code>JP - Equinix Osaka Softbank (JPOS_1)</code></p>
+
+<p>这样来就是使用日本软银线路</p>
+
+<p>对于 <strong>THE PLAN 套餐</strong> Location 线路的选择建议：</p>
+
+<p>电信选择 DC6 或者 DC9<br />
+联通选择 JP-XX-Softbank<br />
+移动选择 HK</p>
 
 <p>然后点击<code>Add To Cart</code></p>
 
