@@ -61,17 +61,6 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 
 <tbody>
 <tr>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-</tr>
-
-<tr>
 <td align="center">香港</td>
 <td align="center">2 核</td>
 <td align="center">2048 MB</td>
