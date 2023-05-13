@@ -1,291 +1,813 @@
 <div class="post-content">
-<p>支持 V2Ray 绝大多数传输协议，WebSocket + TLS，HTTP/2，Shadowsocks，动态端口，集成 BBR 和锐速优化等。</p>
+<p>最好用的 V2Ray 一键安装脚本 &amp; 管理脚本</p>
 
-<h2 id="前言">前言</h2>
+<h2 id="介绍">介绍</h2>
 
-<p>V2Ray 官网：<a href="https://www.v2ray.com" rel="nofollow" target="_blank">https://www.v2ray.com</a></p>
+<p>最好用的 V2Ray 脚本</p>
 
-<p>V2Ray 是一个于 Shadowsocks 之后非常好用的代理软件，但是由于 V2Ray 的配置略复杂，GUI 客户端不完善，所以 V2Ray 并没有像 Shadowsocks 在科学上网人群之中那么流行。<br />
-不过我想，像我这种小小白萌新，更需要的是一个好用的一键安装脚本……<br />
-所以，此脚本是为了方便像我这种小小白萌新更加容易去使用 V2Ray，配置 V2Ray。希望对你有帮助 ^_^</p>
+<p>Github 地址：<a href="https://github.com/233boy/v2ray/tree/master" rel="nofollow" target="_blank">https://github.com/233boy/v2ray/tree/master</a></p>
 
-<blockquote>
-<p>如果你是毫无经验的小白，搭建 V2Ray 请看此教程：<a href="https://github.com/233boy/v2ray/wiki/V2Ray%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B" rel="nofollow" target="_blank">V2Ray搭建详细图文教程</a></p>
-</blockquote>
-
-<h2 id="更新日志">更新日志</h2>
+<h2 id="特点">特点</h2>
 
 <ul>
-<li>2018-01-28<br />
-第一个完善版本发布&hellip;<br /></li>
-<li>2018-5-2<br />
-支持 HTTP/2 &hellip; 懒得发一个版本就在这里写一下<br /></li>
-<li>2018-5-26<br />
-支持 Socks5 &hellip;<br /></li>
-<li>2019-1-5<br />
-v3 版本，更加好用了。新年快乐！<br />
+<li>快速安装<br /></li>
+<li>超级好用<br /></li>
+<li>零学习成本<br /></li>
+<li>自动化 TLS<br /></li>
+<li>简化所有流程<br /></li>
+<li>屏蔽 BT<br /></li>
+<li>屏蔽中国 IP<br /></li>
+<li>使用 API 操作<br /></li>
+<li>兼容 V2Ray 命令<br /></li>
+<li>强大的快捷参数<br /></li>
+<li>支持所有常用协议<br /></li>
+<li>一键添加 Shadowsocks<br /></li>
+<li>一键添加 VMess-(TCP/mKCP/QUIC)<br /></li>
+<li>一键添加 VMess-(WS/H2/gRPC)-TLS<br /></li>
+<li>一键添加 VLESS-(WS/H2/gRPC)-TLS<br /></li>
+<li>一键添加 Trojan-(WS/H2/gRPC)-TLS<br /></li>
+<li>一键添加 VMess-(TCP/mKCP/QUIC) 动态端口<br /></li>
+<li>一键启用 BBR<br /></li>
+<li>一键更改伪装网站<br /></li>
+<li>一键更改 (端口/UUID/密码/域名/路径/加密方式/SNI/动态端口/等&hellip;)<br /></li>
+<li>还有更多&hellip;<br />
 <br /></li>
 </ul>
 
-<h2 id="这是一个提示">这是一个提示</h2>
+<h2 id="支持协议列表">支持协议列表</h2>
 
-<p>真是无聊，折腾啥啊。如果你担心 IP 被墙，建议买个 <a href="https://justmysocks.xyz/buy-justmysocks/" class="links" target="_blank">搬瓦工 Just My Socks </a>先凑合用着就可以了，<b>被墙自动换 IP，无须担心 IP 被墙！</b>Just My Socks 是搬瓦工出品的代理服务，质量可靠，优质 CN2 GIA 线路，并且支持退款，放心无忧。</p>
-
-<h2 id="温馨提示">温馨提示</h2>
-
-<p><strong>特么这个脚本没有挖矿，没有挖矿，没有挖矿。</strong> 我很抱歉……认真的开了个玩笑<br />
-脚本是开源的，开源地址： <a href="https://github.com/233boy/v2ray" rel="nofollow" target="_blank">https://github.com/233boy/v2ray</a></p>
-
-<h2 id="功能特点">功能特点</h2>
-
-<ol>
-<li>支持 V2Ray 多数传输协议<br /></li>
-<li>支持 WebSocket + TLS / HTTP/2<br /></li>
-<li>支持 动态端口 (WebSocket + TLS，Socks5， HTTP/2 除外)<br /></li>
-<li>支持 屏蔽广告<br /></li>
-<li>支持 配置 Shadowsocks<br /></li>
-<li>支持 下载客户端配置文件 (不用 Xshell 也可以下载)<br /></li>
-<li>客户端配置文件同时支持 SOCKS 和 HTTP<br /></li>
-<li>支持 生成 V2Ray 配置二维码链接 (仅适用部分客户端)<br /></li>
-<li>支持 生成 V2Ray 配置信息链接<br /></li>
-<li>支持 生成 Shadowsocks 配置二维码链接<br /></li>
-<li>支持修改 V2Ray 传输协议<br /></li>
-<li>支持修改 V2Ray 端口<br /></li>
-<li>支持修改 动态端口<br /></li>
-<li>支持修改 用户ID<br /></li>
-<li>支持修改 TLS 域名<br /></li>
-<li>支持修改 Shadowsocks 端口<br /></li>
-<li>支持修改 Shadowsocks 密码<br /></li>
-<li>支持修改 Shadowsocks 加密协议<br /></li>
-<li>自动启用 BBR 优化 (如果内核支持)<br /></li>
-<li>集成可选安装 BBR (by teddysun.com)<br /></li>
-<li>集成可选安装 锐速 (by moeclub.org)<br /></li>
-<li>一键 查看运行状态 / 查看配置信息 / 启动 / 停止 / 重启 / 更新 / 卸载 / 等等…<br /></li>
-<li>人性化向导 &amp; 纯净安装 &amp; 卸载彻底<br />
+<ul>
+<li>VMess-TCP<br /></li>
+<li>VMess-mKCP<br /></li>
+<li>VMess-QUIC<br /></li>
+<li>VMess-H2-TLS<br /></li>
+<li>VMess-WS-TLS<br /></li>
+<li>VMess-gRPC-TLS<br /></li>
+<li>VLESS-H2-TLS<br /></li>
+<li>VLESS-WS-TLS<br /></li>
+<li>VLESS-gRPC-TLS<br /></li>
+<li>Trojan-H2-TLS<br /></li>
+<li>Trojan-WS-TLS<br /></li>
+<li>Trojan-gRPC-TLS<br /></li>
+<li>Shadowsocks<br /></li>
+<li>VMess-TCP-dynamic-port<br /></li>
+<li>VMess-mKCP-dynamic-port<br /></li>
+<li>VMess-QUIC-dynamic-port<br />
 <br /></li>
-</ol>
+</ul>
 
-<p>哈哈哈..我故意要写够 23 条的。说着当然，脚本肯定都会有如上所说的功能。</p>
+<h2 id="机场推荐">机场推荐</h2>
 
-<h2 id="安装或卸载">安装或卸载</h2>
+<p>如果你只是单纯的翻，墙需求，可以购买机场的，不用自己搭建什么的，省心省力。</p>
 
-<blockquote>
-<p>温馨提醒，此脚本默认屏蔽一些不友好的网站！(仅限轮子相关)</p>
-</blockquote>
+<p>机场推荐： <a href="https://on.affpass.com/go/jms" rel="nofollow" target="_blank">Just My Socks</a></p>
 
-<p>要求：Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统<br />
-推荐使用 Debian 9 系统，脚本会自动启用 BBR 优化。<br />
-备注：不推荐使用 Debian 8 系统，因为 Caddy 申请证书可能会出现一些莫名其妙的问题<br />
-<strong>我们推荐使用 <a href="https://on.affpass.com/go/bwg" rel="nofollow" target="_blank">搬瓦工VPS</a>，稳定，快速，针对中国线路专门优化，无须担心跑路，服务好，并且支持退款。<br />
-在这里可以找到 <a href="https://233vps.com/post/bandwagonhost-plans/" target="_blank">
-     搬瓦工 VPS 套餐大全  
-</a>
- ，优惠码在这里： <a href="https://233vps.com/post/bandwagonhost-coupon-code/" target="_blank">
-     搬瓦工 VPS 优惠码  
-</a>
-</strong><br />
-使用 root 用户输入下面命令安装或卸载</p>
+<p><a href="https://on.affpass.com/go/jms" rel="nofollow" target="_blank">Just My Socks</a> 是搬瓦工提供的 Shadowsocks &amp; V2Ray 服务，不怕跑路，非国人商家，无须担心 IP 被墙问题。</p>
 
-<pre><code>bash &lt;(curl -s -L https://git.io/v2ray.sh)
-</code></pre>
-
-<div class="post-ad">
-    
-    
-    
-</div>
-
-
-<blockquote>
-<p>如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl<br />
-ubuntu/debian 系统安装 Curl 方法: <code>apt-get update -y &amp;&amp; apt-get install curl -y</code><br />
-centos 系统安装 Curl 方法: <code>yum update -y &amp;&amp; yum install curl -y</code><br />
-安装好 curl 之后就能安装脚本了</p>
-</blockquote>
-
-<p>备注：安装完成后，输入 <code>v2ray</code> 即可管理 V2Ray<br />
-如果提示你的系统不支持此脚本，那么请尝试更换系统</p>
-
-<p>下面是此脚本的一些截图</p>
-
-<p>安装选项</p>
-
-
-<img src="https://i.loli.net/2019/01/05/5c305224cfe05.jpg" alt="安装 V2Ray">
-
-
-<p>配置 Shadowsocks</p>
-
-
-<img src="https://i.loli.net/2019/01/05/5c305224ad11c.jpg" alt="配置 Shadowsocks">
-
-
-<p>安装完成</p>
-
-
-<img src="https://i.loli.net/2019/01/05/5c305224bbd75.jpg" alt="V2Ray 安装完成">
-
-
-<p>管理面板</p>
-
-
-<img src="https://i.loli.net/2019/01/05/5c305224c606e.jpg" alt="V2Ray 管理面板">
-
-
-<div class="post-ad">
-    
-    
-    
-</div>
-
-
-<h2 id="telegram-专用代理">Telegram 专用代理</h2>
-
-<p>如果你在使用 Telegram 的话，你可以配置一个 Telegram 的专用代理，这样来，在某些情况下你就不需要再开一个代理软件了。<br />
-输入 <code>v2ray tg</code> 即可配置 TG 专用代理<br />
-配置 Telegram MTProto</p>
-
-
-<img src="https://i.loli.net/2019/01/05/5c3052248ea74.jpg" alt="配置Telegram MTProto">
-
-
-<p>Telegram MTProto 配置信息</p>
-
-
-<img src="https://i.loli.net/2019/01/05/5c3052248a10f.jpg" alt="Telegram MTProto 配置信息">
-
-
-<h2 id="快速管理">快速管理</h2>
-
-<p><code>v2ray info</code> 查看 V2Ray 配置信息<br />
- <code>v2ray config</code> 修改 V2Ray 配置<br />
- <code>v2ray link</code> 生成 V2Ray 配置文件链接<br />
- <code>v2ray infolink</code> 生成 V2Ray 配置信息链接<br />
- <code>v2ray qr</code> 生成 V2Ray 配置二维码链接<br />
- <code>v2ray ss</code> 修改 Shadowsocks 配置<br />
- <code>v2ray ssinfo</code> 查看 Shadowsocks 配置信息<br />
- <code>v2ray ssqr</code> 生成 Shadowsocks 配置二维码链接<br />
- <code>v2ray status</code> 查看 V2Ray 运行状态<br />
- <code>v2ray start</code> 启动 V2Ray<br />
- <code>v2ray stop</code> 停止 V2Ray<br />
- <code>v2ray restart</code> 重启 V2Ray<br />
- <code>v2ray log</code> 查看 V2Ray 运行日志<br />
- <code>v2ray update</code> 更新 V2Ray<br />
- <code>v2ray update.sh</code> 更新 V2Ray 管理脚本<br />
- <code>v2ray uninstall</code> 卸载 V2Ray</p>
-
-<h2 id="配置文件路径">配置文件路径</h2>
-
-<p>V2Ray 配置文件路径：/etc/v2ray/config.json<br />
-Caddy 配置文件路径：/etc/caddy/Caddyfile<br />
-脚本配置文件路径: /etc/v2ray/233blog_v2ray_backup.conf</p>
-
-<blockquote>
-<p>警告，请不要修改脚本配置文件，免得出错。。<br />
-如果你不是有特别的需求，也不要修改 V2Ray 配置文件<br />
-不过也没事，若你实在想要瞎折腾，出错了的话，你就卸载，然后重装，再出错 ，再卸载，再重装，重复到自己不再想折腾为止。。</p>
-</blockquote>
-
-<h2 id="ws-tls-http2">WS+TLS / HTTP2</h2>
-
-<p>如果你使用了这两个协议，那么就会使用了脚本自带的 Caddy 集成<br />
-不管如何，不建议直接去更改 Caddy 的配置：/etc/caddy/Caddyfile<br />
-如果你需要配置其他网站相关，请将网站的配置文件放到 /etc/caddy/sites 目录下，然后重启 Caddy 进程即可，脚本默认生成的 Caddy 的配置会加载 /etc/caddy/sites 这个目录下的所有配置文件。<br />
-所以，请将你的网站配置文件放到 /etc/caddy/sites 目录下，完完全全不需要去更改 /etc/caddy/Caddyfile<br />
-记得重启 Caddy 进程：service caddy restart</p>
-
-<h2 id="caddy-插件相关">Caddy 插件相关</h2>
-
-<p>本脚本集成了 Caddy，但不集成任何 Caddy 插件，如果你需要安装某些 Caddy 插件，你可以使用官方的 Caddy 安装脚本来一键安装。<br />
-本人的脚本集成的 Caddy 的安装路径，跟 Caddy 官方的安装脚本是一致的。所以可以直接安装，不会有任何问题</p>
-
-<p>举个例子，安装包含 http.filebrowser 插件的 Caddy，执行如下命令即可</p>
-
-<pre><code>curl https://getcaddy.com | bash -s personal http.filebrowser
-</code></pre>
-
-<p>你可以在 <a href="https://caddyserver.com/download" rel="nofollow" target="_blank">https://caddyserver.com/download</a> 找到 Caddy 更多插件和安装命令。</p>
-
-<h2 id="备注">备注</h2>
-
-<p>V2Ray 客户端配置文件 SOCKS 监听端口为 <code>2333</code>， HTTP 监听端口为 <code>6666</code><br />
-可能某些 V2Ray 客户端的选项或描述略有不同，但事实上，此脚本显示的 V2Ray 配置信息已经足够详细，由于客户端的不同，请对号入座。</p>
-
-<h2 id="反馈问题">反馈问题</h2>
-
-<p>请先查阅：<a href="https://233v2.com/post/10/">V2Ray 一键安装脚本疑问集合</a><br />
-Telegram 群组：<a href="https://t.me/blog233" rel="nofollow" target="_blank">
-     https://t.me/blog233 
-</a>
-<br />
-Github 反馈：<a href="https://github.com/233boy/v2ray/issues" rel="nofollow" target="_blank">
-     https://github.com/233boy/v2ray/issues 
-</a>
-<br />
-任何有关于 V2Ray 的问题，请自行到 V2Ray 官方反馈。<br />
-<strong>目前只支持配置一个 V2Ray 账号&hellip;一个 Shadowsocks 账号。。不支持 SSR。。</strong><br />
-<strong>使用国际大厂的 VPS，请自行在安全组 (防火墙) 开放端口和 UDP 协议 (如果你要使用含有 mKCP 的传输协议)</strong></p>
-
-<h2 id="备份">备份</h2>
-
-<p>为了避免由于不可抗拒的原因所造成本人主动删除脚本，所以建议请将本脚本 Fork 一份<br />
-备份地址：<a href="https://github.com/233boy/v2ray/fork" rel="nofollow" target="_blank">
-     https://github.com/233boy/v2ray/fork 
-</a>
-<br />
-安装方法，确保你已经 Fork 了脚本，将 233boy 修改成你的 Github 用户名</p>
-
-<pre><code>git clone https://github.com/233boy/v2ray -b master
-cd v2ray
-chmod +x install.sh
-./install.sh local
-</code></pre>
-
-<div class="post-ad">
-    
-    
-    
-</div>
-
-
-<p>如果提示 git 命令不可用，那就自己安装咯，不会安装啊？我也不知道啊。哈哈</p>
-
-<h2 id="及时更新脚本">及时更新脚本</h2>
-
-<p>为确保你能愉快使用，请留意使用 <code>v2ray update.sh</code> 命令来更新管理脚本。<br />
-脚本难免会有 BUG，所以建议有空就检查一下更新情况。</p>
-
-<h2 id="关注脚本最新动态">关注脚本最新动态</h2>
-
-<p>本人会在 <a href="https://t.me/tg2333" rel="nofollow" target="_blank">本站 Telegram 公告频道</a> 推送脚本最新动态相关，如果你使用 Telegram 的话，可以关注一下。<br />
-当然啦，你也可以加入 <a href="https://t.me/blog233" rel="nofollow" target="_blank">本站 Telegram 群组</a> 来吹水。</p>
-
-<h2 id="资助-v2ray">资助 V2Ray</h2>
-
-<p>如果你觉得 V2Ray 很好用，能解决你的某些问题，请考虑 <a href="https://www.v2ray.com/chapter_00/02_donate.html" rel="nofollow" target="_blank">
-     资助 V2Ray 发展  
-</a>
-。</p>
-
-<h2 id="感谢">感谢</h2>
-
-<p>V2Ray：<a href="https://www.v2ray.com/" rel="nofollow" target="_blank">
-     https://www.v2ray.com/ 
+<p>购买教程：
+<a href="https://bwgjms.com/post/how-to-buy-justmysocks/" target="_blank">
+ Just My Socks 详细图文购买教程  
 </a>
 </p>
 
-<h2 id="版权">版权</h2>
+<h2 id="搭建教程">搭建教程</h2>
 
-<p>此脚本使用 GPL v3 协议共享。</p>
+<p>如果是新手，请看：<a href="https://github.com/233boy/v2ray/wiki/V2Ray搭建详细图文教程" rel="nofollow" target="_blank">V2Ray搭建详细图文教程</a></p>
 
-<h2 id="分享">分享</h2>
+<h2 id="安装">安装</h2>
 
-<p>如果觉得脚本好用，记得分享给你的其他小伙伴们哦~</p>
+<p>系统支持：Ubuntu，Debian，CentOS，推荐使用 Ubuntu。</p>
 
-<h2 id="其他">其他</h2>
+<p>执行如下命令：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">bash &lt;<span style="color:#f92672">(</span>wget -qO- https://git.io/v2ray.sh<span style="color:#f92672">)</span></code></pre></div>
+<h2 id="安装完成">安装完成</h2>
 
-<p>请勿违反国家法律法规，否则后果自负！<br />
-使用一键脚本并不会害了你，并且会让你节省大量的时间，工具从来都是为了更快的解决问题。</p>
+<p>当你执行了上面的安装命令，并且没有错误提示的话，那么你就能看到类似下面的图片</p>
 
-<p><img src="https://affpass.com/ga?ga=v2ray&amp;dt=github.wiki.1&amp;dr=&amp;ul=zh-CN&amp;sd=24-bit&amp;sr=&amp;vp=&amp;z=0&amp;dl=/github/1" alt="" /></p>
+
+
+<img src="https://vip2.loli.io/2023/05/11/WE8qUsZDgvxTVad.png" alt="V2Ray 脚本安装完成"  loading="lazy" referrerPolicy="no-referrer">
+
+
+<p>脚本特意弄了一个时间显示，给反馈用来检测安装时间的&hellip;</p>
+
+<p>理论上，绝大多数情况下 15秒内会安装完成。超过 15 秒的你应该考虑换 VPS 了，推荐使用 <a href="https://on.affpass.com/go/bwg" rel="nofollow" target="_blank">搬瓦工 VPS</a></p>
+
+<p>为方便你快速使用，脚本在安装完成后会自动创建一个 VMess-TCP 配置。</p>
+
+<p>此时你可以复制 URL 到相关软件 (例如 v2rayN) 去测试一下是否正常使用。</p>
+
+<h2 id="恢复旧配置">恢复旧配置</h2>
+
+<p>如果你之前已经安装过本人的 V2Ray 脚本，请在安装完成后，断开 SSH，重新登录 SSH，然后输入 <code>v2ray</code></p>
+
+<p>之后会有旧配置恢复之类的提示，可完美的把之前的旧配置恢复过来。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">是否恢复旧配置:
+
+1<span style="color:#f92672">)</span> 删除旧配置
+2<span style="color:#f92672">)</span> 恢复: VLESS_WebSocket_TLS
+
+请选择 <span style="color:#f92672">[</span>1-2<span style="color:#f92672">]</span>:</code></pre></div>
+<p>但是你必须做出选择，要么恢复旧配置，要么删除旧配置</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">是否删除旧配置? <span style="color:#f92672">[</span>y<span style="color:#f92672">]</span>:</code></pre></div>
+<p>如果旧配置无法恢复，那么只有删除旧配置选项</p>
+
+<p>其他提醒，如果之前使用的协议为 *TLS，并且使用了 Caddy 自动化完成 TLS，恢复旧配置的时候会连同升级 Caddy 版本到最新版本，并且备份了 <code>/etc/caddy/Caddyfile</code> 文件和 <code>/etc/caddy/sites</code> 目录</p>
+
+<p>备份名为：<code>/etc/caddy/Caddyfile.233.bak</code> 文件和 <code>/etc/caddy/sites.233.bak</code> 目录</p>
+
+<p>此备份是为了避免 Caddy 版本过旧，造成配置文件出错，无法启动</p>
+
+<p>如果你曾在 <code>/etc/caddy/sites</code> 目录放过自己另外的网站配置，请在恢复旧配置之后，再手动检查 <code>sites.233.bak</code> 目录配置的兼容性，然后重新放到 <code>sites</code> 目录，之后重启 Caddy 即可，可以使用 <code>v2ray restart caddy</code> 重启 Caddy</p>
+
+<h2 id="管理面板">管理面板</h2>
+
+<p>安装完成后，输入 <code>v2ray</code> 就能看到管理面板，如下图片所示</p>
+
+
+
+<img src="https://vip2.loli.io/2023/05/11/irKCJBOREU2xdyZ.png" alt="V2Ray 脚本管理面板"  loading="lazy" referrerPolicy="no-referrer">
+
+
+<p>提示，如果你不想执行任何功能，直接按 Enter 回车退出即可。</p>
+
+<h2 id="快速入门">快速入门</h2>
+
+<p>V2Ray 脚本简化了很多流程，例如我们常用的是 (添加、更改、查看、删除) 配置，以下内容让你可以快速掌握使用</p>
+
+<p>添加配置：</p>
+
+<ul>
+<li><p><code>v2ray add</code> -&gt; 添加配置</p></li>
+
+<li><p><code>v2ray add ss</code> -&gt; 添加一个 Shadowsocks 配置</p></li>
+
+<li><p><code>v2ray add tcp</code> -&gt; 添加一个 VMess-TCP 配置</p></li>
+
+<li><p><code>v2ray add kcpd</code> -&gt; 添加一个 VMess-mKCP-dynamic-port 动态端口配置</p></li>
+</ul>
+
+<p>备注，使用 <code>v2ray add</code> 添加配置的时候，仅 *TLS 相关协议配置必须提供域名，其他均可自动化处理。</p>
+
+<p>如需查看更多 add 参数用法，请查看下面的 add 说明</p>
+
+<p>&ndash;</p>
+
+<p>更改配置：</p>
+
+<ul>
+<li><p><code>v2ray change</code> -&gt; 更改配置</p></li>
+
+<li><p><code>v2ray change tcp</code> -&gt; 更改 TCP 相关配置</p></li>
+
+<li><p><code>v2ray change tcp port auto</code> -&gt; 更改 TCP 相关配置的端口，端口使用自动创建，也可以使用 <code>v2ray port tcp auto</code></p></li>
+
+<li><p><code>v2ray change kcp id auto</code> -&gt; 更改 mKCP 相关配置的 UUID，UUID 使用自动创建，也可以使用 <code>v2ray id tcp auto</code></p></li>
+</ul>
+
+<p>如需查看更多 change 参数用法，请查看下面的 change 说明</p>
+
+<p>&ndash;</p>
+
+<p>查看配置：</p>
+
+<ul>
+<li><p><code>v2ray info</code> -&gt; 查看配置</p></li>
+
+<li><p><code>v2ray info tcp</code> -&gt; 查看 TCP 相关配置</p></li>
+
+<li><p><code>v2ray info kcp</code> -&gt; 查看 kcp 相关配置</p></li>
+</ul>
+
+<p>&ndash;</p>
+
+<p>删除配置：</p>
+
+<ul>
+<li><p><code>v2ray del</code> -&gt; 删除配置</p></li>
+
+<li><p><code>v2ray del kcp</code> -&gt; 删除 KCP 相关配置</p></li>
+
+<li><p><code>v2ray del tcp</code> -&gt; 删除 TCP 相关配置</p></li>
+</ul>
+
+<p><strong>提醒，谨慎使用 del 参数</strong></p>
+
+<p>&ndash;</p>
+
+<p>非常棒！你已经掌握最常用的功能 (添加、更改、查看、删除)</p>
+
+<p>add / change / info / del ： 添加、更改、查看、删除</p>
+
+<p>对于绝大多数用户来说</p>
+
+<p>使用 <code>v2ray add</code> 添加配置，使用 <code>v2ray change</code> <code>v2ray info</code> <code>v2ray del</code> 来 (更改、查看、删除) 配置即可。</p>
+
+<blockquote>
+<p>提醒，如果只匹配到一个配置时则自动选择该配置，否则将显示匹配到的配置列表，要求选择其中一个配置</p>
+</blockquote>
+
+<h2 id="add">add</h2>
+
+<p>add 参数是用来添加配置的</p>
+
+<p>备注：可选参数中使用 <code>auto</code> 代替即是让脚本自动化处理相关参数</p>
+
+<p>用法：<code>v2ray add [protocol] [args... | auto]</code></p>
+
+<p>举例：</p>
+
+<ul>
+<li><code>v2ray add</code><br /></li>
+<li><code>v2ray add h2</code><br /></li>
+<li><code>v2ray add ws</code><br /></li>
+<li><code>v2ray add ss</code><br /></li>
+<li><code>v2ray add tcp</code><br /></li>
+<li><code>v2ray add kcpd</code><br />
+<br /></li>
+</ul>
+
+<p>提醒，当 <code>可选参数</code> 不存在时，即默认为 auto，仅 *TLS 协议配置的域名无法自动处理。</p>
+
+<p>例如，<code>v2ray add tcp</code> 等于 <code>v2ray add tcp auto auto auto</code></p>
+
+<p>&ndash;</p>
+
+<p>可选参数详细说明如下：</p>
+
+<p>添加一个 Shadowsocks 配置<br />
+可选参数：端口，密码，加密方式<br />
+用法：<code>v2ray add ss [port] [password] [method]</code><br />
+举例：</p>
+
+<ul>
+<li><p><code>v2ray add ss</code></p></li>
+
+<li><p><code>v2ray add ss 233 233boy aes-128-gcm</code> -&gt; 端口使用 233，密码使用 233boy.com，加密方式使用 aes-128-gcm</p></li>
+</ul>
+
+<p>&ndash;</p>
+
+<p>添加一个 VMess-(TCP/mKCP/QUIC) 配置<br />
+可选参数：端口，UUID，伪装类型<br />
+用法：<code>v2ray add [tcp | kcp | quic] [port] [uuid] [type]</code><br />
+举例：</p>
+
+<ul>
+<li><p><code>v2ray add tcp</code> -&gt; 添加一个 VMess-TCP 配置</p></li>
+
+<li><p><code>v2ray add kcp</code> -&gt; 添加一个 VMess-mKCP 配置</p></li>
+
+<li><p><code>v2ray add quic</code> -&gt; 添加一个 VMess-QUIC 配置</p></li>
+
+<li><p><code>v2ray add tcp 233 auto http</code> -&gt; 端口使用 233，伪装类型使用 http</p></li>
+
+<li><p><code>v2ray add kcp 234 auto dtls</code> -&gt; 端口使用 234，伪装类型使用 dtls</p></li>
+
+<li><p><code>v2ray add quic 235 auto wechat-video</code> -&gt; 端口使用 235，伪装类型使用 wechat-video</p></li>
+</ul>
+
+<p>&ndash;</p>
+
+<p>添加一个 VMess-(TCP/mKCP/QUIC) 动态端口配置<br />
+可选参数：端口，UUID，伪装类型，动态开始端口，动态结束端口<br />
+用法：<code>v2ray add [tcpd | kcpd | quicd] [port] [uuid] [type] [start] [end]</code><br />
+举例：</p>
+
+<ul>
+<li><p><code>v2ray add tcpd</code> -&gt; 添加一个 VMess-TCP 动态端口配置</p></li>
+
+<li><p><code>v2ray add kcpd</code> -&gt; 添加一个 VMess-mKCP 动态端口配置</p></li>
+
+<li><p><code>v2ray add quicd</code> -&gt; 添加一个 VMess-QUIC 动态端口配置</p></li>
+
+<li><p><code>v2ray add tcpd 223 auto http 2333 3333</code> -&gt; 端口使用 233，伪装类型使用 http，动态端口使用 2333-3333</p></li>
+
+<li><p><code>v2ray add kcpd auto auto dtls 2333 2444</code> -&gt; 伪装类型使用 dtls，动态端口 2333-2444</p></li>
+
+<li><p><code>v2ray add quicd 456 auto dtls 4567 5678</code> -&gt; 端口使用 456，伪装类型使用 dtls，动态端口使用 4567-5678</p></li>
+</ul>
+
+<p>&ndash;</p>
+
+<p>添加一个 VMess-(WS/H2/gRPC)-TLS 配置<br />
+可选参数：域名，UUID，路径<br />
+用法: <code>v2ray add [ws | h2 | grpc] [host] [uuid] [path]</code><br />
+举例:</p>
+
+<ul>
+<li><p><code>v2ray add ws</code> -&gt; 添加一个 VMess-WS-TLS 配置</p></li>
+
+<li><p><code>v2ray add h2</code> -&gt; 添加一个 VMess-H2-TLS 配置</p></li>
+
+<li><p><code>v2ray add grpc</code> -&gt; 添加一个 VMess-gRPC-TLS 配置</p></li>
+
+<li><p><code>v2ray add ws 233boy.com</code> -&gt; 域名使用 233boy.com</p></li>
+
+<li><p><code>v2ray add h2 233boy.com auto /h2</code> -&gt; 域名使用 233boy.com，路径使用 /h2</p></li>
+
+<li><p><code>v2ray add grpc 233boy.com auto /grpc</code> -&gt; 域名使用 233boy.com，路径使用 /grpc</p></li>
+</ul>
+
+<p>&ndash;</p>
+
+<p>添加一个 VLESS-(WS/H2/gRPC)-TLS 配置<br />
+可选参数：域名，UUID，路径<br />
+用法: <code>v2ray add [vws | vh2 | vgrpc] [host] [uuid] [path]</code><br />
+举例:</p>
+
+<ul>
+<li><p><code>v2ray add vws</code> -&gt; 添加一个 VLESS-WS-TLS 配置</p></li>
+
+<li><p><code>v2ray add vh2</code> -&gt; 添加一个 VLESS-H2-TLS 配置</p></li>
+
+<li><p><code>v2ray add vgrpc</code> -&gt; 添加一个 VLESS-gRPC-TLS 配置</p></li>
+
+<li><p><code>v2ray add vws 233boy.com</code> -&gt; 域名使用 233boy.com</p></li>
+
+<li><p><code>v2ray add vh2 233boy.com auto /h2</code> -&gt; 域名使用 233boy.com，路径使用 /h2</p></li>
+
+<li><p><code>v2ray add vgrpc 233boy.com auto /grpc</code> -&gt; 域名使用 233boy.com，路径使用 /grpc</p></li>
+</ul>
+
+<p>&ndash;</p>
+
+<p>添加一个 Trojan-(WS/H2/gRPC)-TLS 配置<br />
+可选参数：域名，UUID，路径<br />
+用法: <code>v2ray add [tws | th2 | tgrpc] [host] [uuid] [path]</code><br />
+举例:</p>
+
+<ul>
+<li><p><code>v2ray add tws</code> -&gt; 添加一个 Trojan-WS-TLS 配置</p></li>
+
+<li><p><code>v2ray add th2</code> -&gt; 添加一个 Trojan-H2-TLS 配置</p></li>
+
+<li><p><code>v2ray add tgrpc</code> -&gt; 添加一个 Trojan-gRPC-TLS 配置</p></li>
+
+<li><p><code>v2ray add tws 233boy.com</code> -&gt; 域名使用 233boy.com</p></li>
+
+<li><p><code>v2ray add th2 233boy.com auto /h2</code> -&gt; 域名使用 233boy.com，路径使用 /h2</p></li>
+
+<li><p><code>v2ray add tgrpc 233boy.com auto /grpc</code> -&gt; 域名使用 233boy.com，路径使用 /grpc</p></li>
+</ul>
+
+<p>&ndash;</p>
+
+<p>提醒，<code>v2ray add [protocol]</code> 的 <code>protocol</code> 也可以换完整的协议名称，名称看上面的支持协议列表</p>
+
+<p>举例，<code>v2ray add Shadowsocks</code> 跟 <code>v2ray add ss</code> 是一样的，但当然还是用简化的名称吧，简单好记。</p>
+
+<p>再说一遍，当可选参数不存在时默认是自动化处理的 (除了 *TLS 的配置必须提供域名)，如非必要，可以省去使用可选参数的。</p>
+
+<p>所以，绝大多数情况下，只要加上协议即可，举例： <code>v2ray add tcp</code>，<code>v2ray add kcp</code>，<code>v2ray add kcpd</code></p>
+
+<h2 id="no-auto-tls">no-auto-tls</h2>
+
+<p>no-auto-tls 参数跟 add 参数用法一样，但禁止自动配置 TLS, 可用于 *TLS 相关协议</p>
+
+<p>用法：<code>v2ray no-auto-tls [protocol] [args... | auto]</code></p>
+
+<p>举例：</p>
+
+<ul>
+<li><code>v2ray no-auto-tls</code><br /></li>
+<li><code>v2ray no-auto-tls ws</code><br /></li>
+<li><code>v2ray no-auto-tls vh2 233boy.com</code><br /></li>
+<li><code>v2ray no-auto-tls tgrpc 233boy.com</code><br />
+<br /></li>
+</ul>
+
+<p>提醒，如果你想要手动配置 TLS，请使用此选项，例如你想要用 NGINX 实现 TLS</p>
+
+<p>帮助说明：<a href="https://233boy.com/v2ray/no-auto-tls/" rel="nofollow" target="_blank">V2Ray 脚本 no-auto-tls 参数帮助说明</a></p>
+
+<h2 id="name">[name]</h2>
+
+<p>试想一虾，如果你当前有 233 个 VMess-TCP 配置的时候，如何快速选择其中一个配置呢</p>
+
+<p>当你有多个配置时，你可以使用 <code>[name]</code> 关键词用来匹配相关配置，以便于快速执行 <code>更改，查看，删除</code> 等操作</p>
+
+<p>推荐使用 <code>端口</code> 或者 <code>域名</code> 来匹配，这样更加容易筛选相关配置。</p>
+
+<p>请往下查看会使用到 <code>[name]</code> 的举例</p>
+
+<blockquote>
+<p>提醒，如果只匹配到一个配置时则自动选择该配置，否则将显示匹配到的配置列表，要求选择其中一个配置</p>
+</blockquote>
+
+<h2 id="change">change</h2>
+
+<p>change 参数是用来更改配置</p>
+
+<p>用法: <code>v2ray change [name] [option] [args... | auto]</code></p>
+
+<p>提醒：不同的配置可提供更改的相关选项是不同的</p>
+
+<p>[option] 名称及选项说明参数如下：</p>
+
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>可选参数</th>
+<th>用途</th>
+<th>auto</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>dp, dynamicport</td>
+<td>[start] [end]</td>
+<td>更改动态端口</td>
+<td>是</td>
+</tr>
+
+<tr>
+<td>full</td>
+<td>[&hellip;]</td>
+<td>更改多个参数</td>
+<td>其他</td>
+</tr>
+
+<tr>
+<td>id</td>
+<td>[uuid]</td>
+<td>更改 UUID</td>
+<td>是</td>
+</tr>
+
+<tr>
+<td>host</td>
+<td>[domain]</td>
+<td>更改域名</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>port</td>
+<td>[port]</td>
+<td>更改端口</td>
+<td>是</td>
+</tr>
+
+<tr>
+<td>path</td>
+<td>[path]</td>
+<td>更改路径</td>
+<td>是</td>
+</tr>
+
+<tr>
+<td>passwd</td>
+<td>[passowrd]</td>
+<td>更改密码</td>
+<td>是</td>
+</tr>
+
+<tr>
+<td>type</td>
+<td>[type]</td>
+<td>更改伪装类型</td>
+<td>是</td>
+</tr>
+
+<tr>
+<td>method</td>
+<td>[method]</td>
+<td>更改加密方式</td>
+<td>是</td>
+</tr>
+
+<tr>
+<td>seed</td>
+<td>[seed]</td>
+<td>更改 mKCP seed</td>
+<td>是</td>
+</tr>
+
+<tr>
+<td>new</td>
+<td>[&hellip;]</td>
+<td>更改协议</td>
+<td>其他</td>
+</tr>
+
+<tr>
+<td>web</td>
+<td>[domain]</td>
+<td>更改伪装网站</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+
+<p>备注，支持 auto 的即是可以将可选参数设置为 auto，以执行自动更改相关参数</p>
+
+<p>如果 auto 为其他，可选参数请参考 add 参数用法，full 类似于 <code>v2ray add 当前协议 [...]</code>，new 类似于 <code>v2ray add [...]</code></p>
+
+<p>举例:</p>
+
+<ul>
+<li><p><code>v2ray change</code> -&gt; 更改配置</p></li>
+
+<li><p><code>v2ray change tcp</code> -&gt; 更改一个 tcp 相关的配置</p></li>
+
+<li><p><code>v2ray change tcp port 233</code> -&gt; 更改一个 TCP 配置的端口为 233</p></li>
+
+<li><p><code>v2ray change tcp port auto</code> -&gt; 更改一个 TCP 配置的端口，并且端口自动创建</p></li>
+
+<li><p><code>v2ray change kcp id auto</code> -&gt; 更改一个 mKCP 配置的 UUID，并且 UUID 自动创建</p></li>
+
+<li><p><code>v2ray change kcp dp auto</code> -&gt; 更改一个 mKCP 配置的动态端口，并且动态端口自动创建</p></li>
+
+<li><p><code>v2ray change kcp dp 233 332</code> -&gt; 更改一个 mKCP 配置的动态端口为 233-332</p></li>
+
+<li><p><code>v2ray change tls host 233boy.com</code> -&gt; 更改一个 tls 配置的域名为 233boy.com</p></li>
+
+<li><p><code>v2ray change tls web example.com</code> -&gt; 更改一个 tls 配置的伪装网站为 example.com</p></li>
+</ul>
+
+<p>提醒， [option] 名称也支持直接使用</p>
+
+<p>用法：<code>v2ray [option] [name] [...]</code></p>
+
+<p>举例：</p>
+
+<ul>
+<li><p><code>v2ray id</code> -&gt; 更改 UUID</p></li>
+
+<li><p><code>v2ray port</code> -&gt; 更改 端口</p></li>
+
+<li><p><code>v2ray port tcp 233</code> -&gt; 更改一个 tcp 配置的端口为 233</p></li>
+
+<li><p><code>v2ray id tcp</code> -&gt; 更改一个 tcp 配置的 UUID</p></li>
+
+<li><p><code>v2ray id tcp auto</code> -&gt; 更改一个 tcp 配置的 UUID，并且 UUID 自动创建</p></li>
+
+<li><p><code>v2ray dp kcp auto</code> -&gt; 更改一个 mKCP 配置的动态端口，并且动态端口自动创建</p></li>
+
+<li><p><code>v2ray dp kcp 233 332</code> -&gt; 更改一个 mKCP 配置的动态端口为 233-332</p></li>
+
+<li><p><code>v2ray host tls 233boy.com</code> -&gt; 更改一个 tls 配置的域名为 233boy.com</p></li>
+
+<li><p><code>v2ray web tls example.com</code> -&gt; 更改一个 tls 配置的伪装网站为 example.com</p></li>
+</ul>
+
+<blockquote>
+<p>更改配置的选项较多，就不一个一个举例了，绝大多数情况下使用 <code>v2ray change</code> 即可</p>
+</blockquote>
+
+<h2 id="info">info</h2>
+
+<p>info 参数是用来查看配置的</p>
+
+<p>用法: <code>v2ray info [name]</code></p>
+
+<p>举例:</p>
+
+<ul>
+<li><p><code>v2ray info</code> -&gt; 查看配置</p></li>
+
+<li><p><code>v2ray info tcp</code> -&gt; 查看一个 tcp 配置</p></li>
+
+<li><p><code>v2ray info kcp</code> -&gt; 查看一个 kcp 配置</p></li>
+
+<li><p><code>v2ray info tls</code> -&gt; 查看一个 tls 配置</p></li>
+</ul>
+
+<h2 id="url">url</h2>
+
+<p>url 参数是用来生成配置的 URL 链接的</p>
+
+<p>用法: <code>v2ray url [name]</code></p>
+
+<p>举例:</p>
+
+<ul>
+<li><p><code>v2ray url</code> -&gt; 查看配置的 URL 链接</p></li>
+
+<li><p><code>v2ray url tcp</code> -&gt; 查看一个 tcp 配置的 URL 链接</p></li>
+
+<li><p><code>v2ray url kcp</code> -&gt; 查看一个 kcp 配置的 URL 链接</p></li>
+
+<li><p><code>v2ray url tls</code> -&gt; 查看一个 tls 配置的 URL 链接</p></li>
+</ul>
+
+<p>备注，使用 <code>v2ray info</code> 也同样会有生成 URL 链接信息的</p>
+
+<h2 id="qr">qr</h2>
+
+<p>qr 参数是用来生成配置的二维码信息的</p>
+
+<p>用法: <code>v2ray qr [name]</code></p>
+
+<p>举例:</p>
+
+<ul>
+<li><p><code>v2ray qr</code> -&gt; 查看配置的二维码信息</p></li>
+
+<li><p><code>v2ray qr tcp</code> -&gt; 查看一个 tcp 配置的二维码信息</p></li>
+
+<li><p><code>v2ray qr kcp</code> -&gt; 查看一个 kcp 配置的二维码信息</p></li>
+
+<li><p><code>v2ray qr tls</code> -&gt; 查看一个 tls 配置的二维码信息</p></li>
+</ul>
+
+<h2 id="del">del</h2>
+
+<p>del 参数是用来删除配置的</p>
+
+<p>用法: <code>v2ray del [name]</code></p>
+
+<p>举例:</p>
+
+<ul>
+<li><p><code>v2ray del</code> -&gt; 删除配置</p></li>
+
+<li><p><code>v2ray del tcp</code> -&gt; 删除一个 tcp 配置</p></li>
+
+<li><p><code>v2ray del kcp</code> -&gt; 删除一个 kcp 配置</p></li>
+
+<li><p><code>v2ray del tls</code> -&gt; 删除一个 tls 配置</p></li>
+</ul>
+
+<blockquote>
+<p>谨慎使用此选项</p>
+</blockquote>
+
+<h2 id="ddel">ddel</h2>
+
+<p>ddel 参数是用来删除多个配置的</p>
+
+<p>用法: <code>v2ray ddel [name...]</code></p>
+
+<p>举例:</p>
+
+<ul>
+<li><p><code>v2ray ddel</code> -&gt; 删除配置</p></li>
+
+<li><p><code>v2ray ddel tcp kcp</code> -&gt; 同时删除一个 tcp，一个 kcp 配置</p></li>
+</ul>
+
+<p>提醒，此处的 <code>[name]</code> 只有匹配到相关配置是唯一时，才会执行删除</p>
+
+<p>例如，假设你当前有两个 tcp 配置，使用 <code>v2ray ddel tcp</code> 是不会删除任何文件的</p>
+
+<blockquote>
+<p>谨慎使用此选项</p>
+</blockquote>
+
+<h2 id="gen">gen</h2>
+
+<p>gen 参数跟 add 参数用法一样，但是 gen 参数只返回 JSON 内容，不会创建配置，仅供测试使用</p>
+
+<p>用法：<code>v2ray gen [protocol] [args... | auto]</code></p>
+
+<p>举例：</p>
+
+<ul>
+<li><code>v2ray gen ss</code><br /></li>
+<li><code>v2ray gen tcp</code><br /></li>
+<li><code>v2ray gen kcpd</code><br /></li>
+<li><code>v2ray gen ws 233boy.com</code><br />
+<br /></li>
+</ul>
+
+<h2 id="genc">genc</h2>
+
+<p>genc 参数是用来查看适用客户端 outbounds JSON 的，仅供测试使用</p>
+
+<p>用法：<code>v2ray genc [name]</code></p>
+
+<p>举例：</p>
+
+<ul>
+<li><code>v2ray gen</code><br /></li>
+<li><code>v2ray gen tcp</code><br />
+<br /></li>
+</ul>
+
+<p>提醒，你也可以使用 <code>v2ray client</code> ，跟 genc 作用是一样的。</p>
+
+<h2 id="bbr">bbr</h2>
+
+<p>bbr 参数是启用 BBR 优化的</p>
+
+<p>使用: <code>v2ray bbr</code></p>
+
+<h2 id="bin">bin</h2>
+
+<p>bin 参数是直接调用 V2Ray 核心运行相关命令，此参数可完全兼容所有 V2Ray 命令</p>
+
+<p>用法：<code>v2ray bin [...]</code></p>
+
+<p>举例：<code>v2ray bin help</code></p>
+
+<p>默认兼容的命令：api, convert, tls, run, uuid</p>
+
+<p>举例：<code>v2ray uuid</code></p>
+
+<h2 id="xapi">xapi</h2>
+
+<p>xapi 参数类似 v2ray api, 但 API 后端使用当前运行的 V2Ray 服务</p>
+
+<p>用法：<code>v2ray xapi [...]</code></p>
+
+<p>举例：<code>v2ray xapi stats</code></p>
+
+<h2 id="fix-config-json">fix-config.json</h2>
+
+<p>fix-config.json 参数是用来修复 config.json 文件的</p>
+
+<p>使用: <code>v2ray fix-config.json</code></p>
+
+<h2 id="update">update</h2>
+
+<p>update 参数是用来更新的</p>
+
+<p>用法：<code>v2ray update [core | sh | caddy] [ver]</code></p>
+
+<p>举例:</p>
+
+<ul>
+<li><code>v2ray update</code> -&gt; 更新核心<br /></li>
+<li><code>v2ray update core</code> -&gt; 更新核心<br /></li>
+<li><code>v2ray update core v5.4.1</code> -&gt; 更新核心，使用 v5.4.1 版本<br /></li>
+<li><code>v2ray update sh</code> -&gt; 更新脚本<br /></li>
+<li><code>v2ray update caddy</code> -&gt; 更新 Caddy<br />
+<br /></li>
+</ul>
+
+<h2 id="log">log</h2>
+
+<p>log 参数是用来查看 V2Ray 运行的实时日志</p>
+
+<p>使用：<code>v2ray log</code></p>
+
+<h2 id="status">status</h2>
+
+<p>status 参数是用来查看运行状态的</p>
+
+<p>使用：<code>v2ray status</code></p>
+
+<h2 id="start-stop-restart">start, stop, restart</h2>
+
+<p>start, stop, restart 参数是用来管理 V2Ray 启动，停止，重启 的</p>
+
+<p>用法：<code>v2ray [start | stop | restart] [caddy]</code></p>
+
+<p>举例：</p>
+
+<ul>
+<li><code>v2ray restart</code> -&gt; 重启 V2Ray<br /></li>
+<li><code>v2ray restart caddy</code> -&gt; 重启 Caddy<br />
+<br /></li>
+</ul>
+
+<h2 id="reinstall">reinstall</h2>
+
+<p>reinstall 参数是用来重装脚本的</p>
+
+<p>使用: <code>v2ray reinstall</code></p>
+
+<h2 id="uninstall">uninstall</h2>
+
+<p>uninstall 参数是用来卸载脚本的</p>
+
+<p>使用：<code>v2ray uninstall</code></p>
+
+<h2 id="帮助">帮助</h2>
+
+<p>哎呀，不想写了，其他的一些参数用法，请查看帮助</p>
+
+<p>使用：<code>v2ray help</code></p>
+
+<h2 id="目录">目录</h2>
+
+<p>V2Ray 脚本全部身家保存在 /etc/v2ray</p>
+
+<p>脚本：/etc/v2ray/sh<br />
+核心：/etc/v2ray/bin<br />
+配置：/etc/v2ray/conf</p>
+
+<p>不要为什么不符合 XXX 规则，因为我更想符合一键删除理念。</p>
+
+<h2 id="友情提醒">友情提醒</h2>
+
+<p>如果你添加了 *TLS 协议的配置，请务必设置伪装网站，使用 <code>v2ray web tls</code> 快速设置伪装网站</p>
+
+<h2 id="自动-tls-说明">自动 TLS 说明</h2>
+
+<p><a href="https://233boy.com/v2ray/caddy-auto-tls/" rel="nofollow" target="_blank">V2Ray 脚本自动 TLS 帮助说明</a></p>
+
+<h2 id="关注我们">关注我们</h2>
+
+<p>Telegram 频道：<a href="https://t.me/tg2333" rel="nofollow" target="_blank">https://t.me/tg2333</a></p>
+
+<p>Telegram 群组：<a href="https://t.me/tg233boy" rel="nofollow" target="_blank">https://t.me/tg233boy</a></p>
+
+<h2 id="反馈问题">反馈问题</h2>
+
+<p><a href="https://github.com/233boy/v2ray/issues" rel="nofollow" target="_blank">https://github.com/233boy/v2ray/issues</a></p>
 </div>
