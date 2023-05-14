@@ -54,7 +54,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 
 <p>购买教程：
 <a href="https://bwgjms.com/post/how-to-buy-justmysocks/" target="_blank">
- Just My Socks 详细图文购买教程  
+Just My Socks 详细图文购买教程  
 </a>
 </p>
 
@@ -664,7 +664,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 
 
 <a href="https://justmysocks.xyz/justmysocks-v2ray/" target="_blank">
- Just My Socks  
+Just My Socks  
 </a>
 ，搬瓦工官方出品的代理服务，优质的 CN2 GIA 线路，<strong>每月仅需 $2.88 起！</strong>再也不用自己折腾搭建了，<strong>最最最最重要的是：被墙自动换 IP，无须担心 IP 被墙！</strong></p>
 
@@ -672,7 +672,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 
 
 <a href="https://justmysocks.xyz/justmysocks-v2ray/" target="_blank">
- Just My Socks 购买及使用  
+Just My Socks 购买及使用  
 </a>
 </p>
 
@@ -875,7 +875,7 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 <h2 id="安装-v2ray">安装 V2Ray</h2>
 
 <p>输入下面命令回车，你可以复制过去，然后在 Xshell 界面按 Shift + Insert 即可粘贴，不能按 Ctrl + V 的。。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">bash &lt;<span style="color:#f92672">(</span>curl -s -L https://git.io/v2ray.sh<span style="color:#f92672">)</span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">bash &lt;<span style="color:#f92672">(</span>wget -qO- -o- https://git.io/v2ray.sh<span style="color:#f92672">)</span></code></pre></div>
 <h2 id="安装完成">安装完成</h2>
 
 <p>当你执行了上面的安装命令，并且没有错误提示的话，那么你就能看到类似下面的图片</p>
