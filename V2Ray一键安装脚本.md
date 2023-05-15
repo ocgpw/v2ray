@@ -34,6 +34,22 @@
 <br /></li>
 </ul>
 
+<h2 id="设计理念">设计理念</h2>
+
+<p>设计理念为：<strong>高效率，超快速，极易用</strong></p>
+
+<p>脚本基于作者的自身使用需求，以 <code>多配置同时运行</code> 为核心设计</p>
+
+<p>并且专门优化了，添加、更改、查看、删除、这四项常用功能</p>
+
+<p>你只需要一条命令即可完成 添加、更改、查看、删除、等操作</p>
+
+<p>例如，添加一个配置仅需不到 1 秒！瞬间完成添加！其他操作亦是如此！</p>
+
+<p>脚本的参数非常高效率并且超级易用，请掌握参数的使用</p>
+
+<p>请认真往下阅读脚本的参数使用，你就会发现可以如此美妙</p>
+
 <h2 id="支持协议列表">支持协议列表</h2>
 
 <ul>
@@ -66,7 +82,7 @@
 
 <p>购买教程：
 <a href="https://bwgjms.com/post/how-to-buy-justmysocks/" target="_blank">
- Just My Socks 详细图文购买教程  
+Just My Socks 详细图文购买教程  
 </a>
 </p>
 
@@ -79,7 +95,7 @@
 <p>系统支持：Ubuntu，Debian，CentOS，推荐使用 Ubuntu。</p>
 
 <p>执行如下命令：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">bash &lt;<span style="color:#f92672">(</span>wget -qO- https://git.io/v2ray.sh<span style="color:#f92672">)</span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">bash &lt;<span style="color:#f92672">(</span>wget -qO- -o- https://git.io/v2ray.sh<span style="color:#f92672">)</span></code></pre></div>
 <h2 id="安装完成">安装完成</h2>
 
 <p>当你执行了上面的安装命令，并且没有错误提示的话，那么你就能看到类似下面的图片</p>
