@@ -290,6 +290,19 @@ Just My Socks 详细图文购买教程
 
 <p>&ndash;</p>
 
+<p>添加一个 Socks 配置<br />
+可选参数：端口，密码，加密方式<br />
+用法：<code>v2ray add socks [port] [username] [password]</code><br />
+举例：</p>
+
+<ul>
+<li><p><code>v2ray add socks</code></p></li>
+
+<li><p><code>v2ray add socks 233 233boy 233boy.com</code> -&gt; 端口使用 233，用户名使用 233boy，密码使用 233boy.com</p></li>
+</ul>
+
+<p>&ndash;</p>
+
 <p>添加一个 VMess-(TCP/mKCP/QUIC) 配置<br />
 可选参数：端口，UUID，伪装类型<br />
 用法：<code>v2ray add [tcp | kcp | quic] [port] [uuid] [type]</code><br />
