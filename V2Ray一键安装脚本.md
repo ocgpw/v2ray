@@ -107,7 +107,9 @@ Just My Socks 详细图文购买教程
 
 <p>脚本特意弄了一个时间显示，给反馈用来检测安装时间的&hellip;</p>
 
-<p>理论上，绝大多数情况下 15秒内会安装完成。超过 15 秒的你应该考虑换 VPS 了，推荐使用 <a href="https://on.affpass.com/go/bwg" rel="nofollow" target="_blank">搬瓦工 VPS</a></p>
+<p>理论上，绝大多数情况下 15 秒内会安装完成，条件允许的情况下仅需一秒即可完成安装！</p>
+
+<p>超过 15 秒的你应该考虑换 VPS 了，推荐使用 <a href="https://on.affpass.com/go/bwg" rel="nofollow" target="_blank">搬瓦工 VPS</a></p>
 
 <p>为方便你快速使用，脚本在安装完成后会自动创建一个 VMess-TCP 配置。</p>
 
