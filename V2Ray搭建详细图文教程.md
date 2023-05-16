@@ -908,6 +908,12 @@ Just My Socks 购买及使用
 
 <h2 id="无法使用">无法使用</h2>
 
+<p>如果你的 VPS 有外部防火墙，请确保你已经开放了端口</p>
+
+<p>关闭防火墙，一般用于 CentOS 系统</p>
+
+<p><code>systemctl stop firewalld;systemctl disable firewalld</code></p>
+
 <p>提醒，默认安装的 V2Ray 内核为最新版本</p>
 
 <p>如果无法使用，可能是你客户端的内核太旧</p>
