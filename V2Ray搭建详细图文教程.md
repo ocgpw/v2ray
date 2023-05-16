@@ -708,7 +708,7 @@ Just My Socks 购买及使用
 <h2 id="结算">结算</h2>
 
 <p>推荐使用搬瓦工优惠码：
-<button class="button" value="BWH3HYATVBJW" title="点击复制优惠码" onclick="boom.cp(this)"> BWH3HYATVBJW  (点击复制)</button>
+<a href="https://on.affpass.com/go/bwg" rel="nofollow" target="_blank">BWHNCXNVXV</a>
 </p>
 
 <p>这个优惠码是搬瓦工目前最高优惠的优惠码<br />
