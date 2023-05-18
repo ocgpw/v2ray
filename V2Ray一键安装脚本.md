@@ -86,10 +86,6 @@ Just My Socks 详细图文购买教程
 </a>
 </p>
 
-<h2 id="搭建教程">搭建教程</h2>
-
-<p>如果是新手，请看：<a href="https://github.com/233boy/v2ray/wiki/V2Ray搭建详细图文教程" rel="nofollow" target="_blank">V2Ray搭建详细图文教程</a></p>
-
 <h2 id="xray-脚本">Xray 脚本</h2>
 
 <p>推荐使用 Xray 脚本，以使用最新的 VLESS-XTLS-uTLS-REALITY 协议</p>
@@ -97,6 +93,10 @@ Just My Socks 详细图文购买教程
 <blockquote>
 <p>请看：<a href="https://github.com/233boy/Xray/wiki/Xray一键安装脚本" rel="nofollow" target="_blank">Xray 一键安装脚本</a></p>
 </blockquote>
+
+<h2 id="搭建教程">搭建教程</h2>
+
+<p>如果是新手，请看：<a href="https://github.com/233boy/v2ray/wiki/V2Ray搭建详细图文教程" rel="nofollow" target="_blank">V2Ray搭建详细图文教程</a></p>
 
 <h2 id="安装">安装</h2>
 
