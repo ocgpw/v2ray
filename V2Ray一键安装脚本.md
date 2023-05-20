@@ -161,13 +161,13 @@ Just My Socks 详细图文购买教程
 
 <h2 id="无法使用">无法使用</h2>
 
-<p>使用 <code>v2ray add ss</code> 添加一个 SS 看看能不能正常使用，如果正常使用，证明运行没有问题。</p>
-
 <p>如果你的 VPS 有外部防火墙，请确保你已经开放了端口</p>
 
-<p>关闭防火墙，一般用于 CentOS 系统</p>
+<p>关闭防火墙</p>
 
-<p><code>systemctl stop firewalld;systemctl disable firewalld</code></p>
+<p><code>systemctl stop firewalld; systemctl disable firewalld</code></p>
+
+<p>使用 <code>v2ray add ss</code> 添加一个 SS 看看能不能正常使用，如果正常使用，证明运行没有问题。</p>
 
 <p>提醒，默认安装的 V2Ray 内核为最新版本</p>
 
