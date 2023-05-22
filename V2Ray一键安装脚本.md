@@ -864,6 +864,10 @@ Just My Socks 详细图文购买教程
 
 <p>如果你添加了 *TLS 协议的配置，请务必设置伪装网站，使用 <code>v2ray web tls</code> 快速设置伪装网站</p>
 
+<h2 id="伪装网站">伪装网站</h2>
+
+<p>伪装网站是一个反代，指的是打开自己域名的时候显示来自伪装网站的内容</p>
+
 <h2 id="自动-tls-说明">自动 TLS 说明</h2>
 
 <p><a href="https://233boy.com/v2ray/caddy-auto-tls/" rel="nofollow" target="_blank">V2Ray 脚本自动 TLS 帮助说明</a></p>
