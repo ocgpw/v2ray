@@ -175,6 +175,8 @@ Just My Socks 详细图文购买教程
 
 <p>请尝试设置 VMessAEAD，某些客户端会有相关选项</p>
 
+<p>某些客户端得把 额外id(alterid) 填写为 0；比如垃圾苹果那边的东西</p>
+
 <p>解决方案一，请尝试将服务器端的内核版本降级</p>
 
 <p>使用 <code>v2ray update core 4.45.2</code> 降级即可</p>
