@@ -161,17 +161,31 @@ Just My Socks 详细图文购买教程
 
 <h2 id="无法使用">无法使用</h2>
 
+<p>无法使用一般都是两种情况，一是无法连接上端口，二是客户端内核支持有问题。</p>
+
 <p>如果你的 VPS 有外部防火墙，请确保你已经开放了端口</p>
 
-<p>关闭防火墙</p>
+<p>测试端口是否能连接上：</p>
 
-<p><code>systemctl stop firewalld; systemctl disable firewalld</code></p>
+<p>打开：<a href="https://ping.sx/check-port" rel="nofollow" target="_blank">https://ping.sx/check-port</a></p>
+
+<p>Target 写 VPS IP，Port 写 V2Ray 的端口，然后点击 <code>Check</code>，如果 REACHABILITY 显示 <code>Timeout</code>，那是无法连接上端口</p>
+
+<p>关闭防火墙，执行如下命令：</p>
+
+<p><code>systemctl stop firewalld; systemctl disable firewalld; ufw disable</code></p>
+
+<p>关闭防火墙之后再测试一下端口是否通，如果不通，你可能还有外部防火墙没关，必须要能连接上端口才能正常使用。</p>
+
+<p>如果能连接上端口，那就继续</p>
 
 <p>使用 <code>v2ray add ss</code> 添加一个 SS 看看能不能正常使用，如果正常使用，证明运行没有问题。</p>
 
 <p>提醒，默认安装的 V2Ray 内核为最新版本</p>
 
 <p>如果无法使用，可能是你客户端的内核太旧</p>
+
+<p>请尝试使用不同的客户端进行测试；比如 v2rayN；v2rayNG 等</p>
 
 <p>请尝试设置 VMessAEAD，某些客户端会有相关选项</p>
 
