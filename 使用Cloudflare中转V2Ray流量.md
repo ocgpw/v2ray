@@ -1,113 +1,191 @@
 <div class="post-content">
-<p>担心 IP 被墙？或者不想 IP 被墙？是的！使用 Cloudflare 来中转 V2Ray 的 WebSocket 流量就行！由于使用了 Cloudflare 中转，所以墙根本不知道背后的 IP 是多少，你可以愉快的玩耍了~</p>
+<p>使用 Cloudflare 中转 V2Ray 流量可以避免 IP 被墙，也可以拯救被封的 IP。</p>
 
-<h2 id="提醒">提醒</h2>
+<h2 id="前言">前言</h2>
 
-<p>如果你不是使用 移动宽带 的用户，那么使用 Cloudflare 中转的速度相对来说是比较慢的，这个是因为线路的问题，无解。<br />
-<strong>警告警告警告</strong><br />
-<strong>该教程目前写得比较简陋，以后应该会增加详细图文教程</strong><br />
-<strong>V2Ray 的 WS + TLS 不是神话，如果你没学会走路就不要急着跑</strong><br />
-<strong>大佬。。。你如果是从来没接触过 V2Ray 的人一上来就开玩  WS + TLS</strong><br />
-<strong>你真的不怕摔跤吗</strong><br />
-<strong>你有解析过域名吗，知道什么是 A 记录吗，会修改 NS 吗。。</strong><br />
-<strong>如果不懂，那就先补上这些知识再往下看</strong><br />
-<strong>如果实在想玩 WS + TLS，请认认真真看教程</strong><br />
-<strong>教程真的写得比较简陋，如果实在折腾不成功，那也很正常的，改天再来</strong><br />
-<strong>或者直接放弃</strong></p>
+<p>一般而言，除非真的有需求，要不然不建议套 CF，因为套 CF 中转速度太慢了</p>
 
-<h2 id="这是一个提示">这是一个提示</h2>
+<p>使用 Cloudflare 中转的速度相对来说是比较慢的，这个是因为线路的问题，无解。</p>
 
-<p>真是无聊，折腾啥啊。<a href="https://justmysocks.xyz/buy-justmysocks/" class="links" target="_blank">买个搬瓦工 Just My Socks 先凑合用着就可以了</a>，<b>被墙自动换 IP，无须担心 IP 被墙！</b>Just My Socks 是搬瓦工出品的代理服务，质量可靠，优质 CN2 GIA 线路，并且支持退款，放心无忧。<br />
-套什么 CF，速度慢到怀疑人生。</p>
+<p>但是使用移动网络的话，可能会使用 Cloudflare 香港节点，理论上会有不错的速度</p>
+
+<p>只有担心 IP 被墙或者 IP 已经被封了，才建议套 CF 中转流量。</p>
+
+<h2 id="安装脚本">安装脚本</h2>
+
+<p>如果已安装，跳过此部分</p>
+
+<p>登录你的 VPS；执行下面的命令：</p>
+<pre><code>bash &lt;(wget -qO- -o- https://git.io/v2ray.sh)</code></pre>
+<p>如果安装成功，继续</p>
 
 <h2 id="准备">准备</h2>
 
-<p>一个域名，建议使用免费域名<br />
-确保域名已经可以在 Cloudflare 正常使用。<br />
-<strong>在 Cloudflare 的 Overview 选项卡可以查看域名状态，请确保为激活状态，即是： Status: Active</strong><br />
-怎么 SSH 连接上被墙的 IP ? Xshell 在属性那里可以设置代理，或者你可以在一台没有被墙的境外 VPS 使用 iptables 转发数据到被墙的机器上，此处不细说了。</p>
+<p>必须拥有一个域名。</p>
 
-<h2 id="添加域名解析">添加域名解析</h2>
+<p>打开：<a href="https://dash.cloudflare.com/sign-up" rel="nofollow" target="_blank">https://dash.cloudflare.com/sign-up</a></p>
 
-<p>在 DNS 选项卡那边添加一个 A 记录的域名解析，假设你的域名是 233blog.com，并且想要使用 www.233blog.com 作为翻墙的域名<br />
-那么在 DNS 那里配置，Name 写 www，IPv4 address 写你的 VPS IP，<strong>务必把云朵点灰</strong>，然后选择 Add Record 来添加解析记录即可<br />
-(如果你已经添加域名解析，<strong>请务必把云朵点灰</strong>，即是 DNS only)</p>
+<p>注册一个 Cloudflare 账号，有账号的话你就登录啊</p>
 
-<p>OK，确保操作没有问题的话，继续</p>
+<h2 id="添加域名">添加域名</h2>
 
-<h2 id="安装-v2ray">安装 V2Ray</h2>
+<p>注册成功后，登录</p>
 
-<blockquote>
-<p>如果你已经使用本人提供的 V2Ray 一键安装脚本并安装了 V2Ray，那就直接输入 <code>v2ray config</code> 修改传输协议为 WebSocket + TLS</p>
-</blockquote>
-
-<p>如果你并没有使用本站提供的 V2Ray 一键安装脚本来安装 V2Ray<br />
-那么现在开始使用吧，最好用的 V2Ray 安装脚本，保证你满意<br />
-使用 root 用户输入下面命令安装或卸载</p>
-
-<pre><code>bash &lt;(curl -s -L https://git.io/v2ray.sh)
-</code></pre>
-
-<blockquote>
-<p>如果提示 curl: command not found ，那是因为你的小鸡没装 Curl<br />
-ubuntu/debian 系统安装 Curl 方法: <code>apt-get update -y &amp;&amp; apt-get install curl -y</code><br />
-centos 系统安装 Curl 方法: <code>yum update -y &amp;&amp; yum install curl -y</code><br />
-安装好 curl 之后就能安装脚本了</p>
-</blockquote>
-
-<p>之后选择安装，传输协议选择 WebSocket + TLS (即是选择 4 )，V2Ray 端口随便，不要是 80 和 443 即可，<strong>然后输入你的域名，域名解析 Y ，自动配置 TLS 也是 Y</strong> ，其他就默认吧，一路回车。等待安装完成<br />
-如果你的域名没有正确解析，安装会失败，解析相关看上面的 <strong>添加域名解析</strong></p>
-
-<p>安装完成后会展示 V2Ray 的配置信息，并且会询问是否生成二维码等，不用管它，直接回车</p>
-
-<p><strong>然后输入 v2ray status 查看一下运行状态，请确保 V2Ray 和 Caddy 都在运行</strong></p>
-
-<p>如果没有问题的话，继续</p>
-
-<h2 id="设置-crypto-和-开启中转">设置 Crypto 和 开启中转</h2>
-
-<p>确保 Cloudflare 的 Crypto 选项卡的 SSL 为 Full<br />
-<strong>并且请确保 SSL 选项卡有显示 Universal SSL Status Active Certificate 这样的字眼，如果你的 SSL 选项卡没有显示这个，不要急，只是在申请证书，24 小时内可以搞定。</strong></p>
-
-<p><strong>然后在 DNS 选项卡那里，把刚才点灰的那个云朵图标，点亮它，一定要点亮一定要点亮一定要点亮</strong></p>
-
-<p>云朵图标务必为橙色状态，即是 DNS and HTTP proxy(CDN)</p>
-
-<h2 id="v2ray-配置信息">V2Ray 配置信息</h2>
-
-<p>很好，现在接下来配置客户端使用<br />
-输入 <code>v2ray info</code> 即可查看 V2Ray 的配置，如果你有使用某些 V2Ray 客户端，可以根据给出的配置的信息来配置使用了。赶紧测试吧</p>
-
-<blockquote>
-<p>V2Ray 客户端使用教程：<br />
-Windows<br />
-<a href="https://github.com/233boy/v2ray/wiki/V2RayN%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B" rel="nofollow" target="_blank">V2RayN使用教程</a></p>
-</blockquote>
-
-<div class="post-ad">
-    
-    
-    
-</div>
+<p>为方便理解，可以在 Cloudflare 后台将语言切换成简体中文；并点击添加站点</p>
 
 
-<p>什么鬼？对啊，就是如此简单啊，要不然你以为啊。</p>
+
+<img src="https://vip2.loli.io/2023/05/25/yQ3WcnV7HfXN1uL.png" alt="切换中文"  loading="lazy" referrerPolicy="no-referrer">
+
+
+<p>然后，输入你的域名，添加站点</p>
+
+
+
+<img src="https://vip2.loli.io/2023/05/25/feBEkxsCNRGm3Sq.png" alt="添加站点"  loading="lazy" referrerPolicy="no-referrer">
+
+
+<p>选择 Free 计划，继续</p>
+
+
+
+<img src="https://vip2.loli.io/2023/05/25/LSWA1ilDhjBy5ce.png" alt="Free 计划"  loading="lazy" referrerPolicy="no-referrer">
+
+
+<p>我们现在就添加一个 DNS 记录，名称：<code>ai</code>，IPv4 地址：<code>写你的 VPS IP</code>，代理状态必须关闭，云朵图标为灰色。</p>
+
+<p>提示：你可以使用 <code>v2ray ip</code> 查看你的 VPS IP。</p>
+
+
+
+<img src="https://vip2.loli.io/2023/05/25/OcZ4aVfLtkC8KH1.png" alt="添加 DNS 记录"  loading="lazy" referrerPolicy="no-referrer">
+
+
+<p>Cloudflare 会自动扫描域名的 DNS，此处可能会不同的显示，反正确保刚才添加的记录，代理状态为关闭即可，继续</p>
+
+
+
+<img src="https://vip2.loli.io/2023/05/25/AqHRkfBl7gICzZ1.png" alt="查看 DNS 记录"  loading="lazy" referrerPolicy="no-referrer">
+
+
+<p>更改域名的 Name Servers 服务器为 Cloudflare 给出两组服务器，不同的域名服务商的操作会有一些不同，此处自己弄</p>
+
+
+
+<img src="https://vip2.loli.io/2023/05/25/BKMxYOgku7v2PLV.png" alt="更改 Name Servers"  loading="lazy" referrerPolicy="no-referrer">
+
+
+<p>改完域名的 Name Servers 就点击，<code>完成，检查名称服务器</code></p>
+
+<h2 id="等待生效">等待生效</h2>
+
+<p>更改域名的 Name Servers 服务器生效的时间会有延迟的，耐心等待即可</p>
+
+
+
+<img src="https://vip2.loli.io/2023/05/25/TuaQI4LnlFO3DGB.png" alt="等待域名生效"  loading="lazy" referrerPolicy="no-referrer">
+
+
+<p>在 Cloudflare 后台主页，如果能看到域名下面显示有 <code>有效</code>，那就是生效了</p>
+
+<p>域名生效了，那就是域名正式托管在 Cloudflare 管理。</p>
+
+<h2 id="添加中转配置">添加中转配置</h2>
+
+<p>登录你的 VPS</p>
+
+<p>使用 <code>v2ray add ws ai.233boy.com</code> 添加一个 vmess-ws-tls 配置；记得把 <code>ai.233boy.com</code> 改成你的域名</p>
+
+<p>就是刚才添加记录的那个域名，假设你的域名是 233boy.com ，添加的名称是 ai，域名就是 ai.233boy.com</p>
+
+
+
+<img src="https://vip2.loli.io/2023/05/25/dheFzQmofSw7i1A.png" alt="添加中转配置"  loading="lazy" referrerPolicy="no-referrer">
+
+
+<p>添加成功的话，会显示类似图片的配置</p>
+
+<h2 id="开启中转">开启中转</h2>
+
+<p>在 Cloudflare 后台主页，点击你的域名进去，在左侧选项菜单选择 <code>SSL/TLS</code></p>
+
+
+
+<img src="https://vip2.loli.io/2023/05/25/tsxw6HpD2r7ZR1c.png" alt="设置SSL/TLS：完全"  loading="lazy" referrerPolicy="no-referrer">
+
+
+<p>将 SSL/TLS 加密模式更改为 <code>完全</code></p>
+
+<p>然后在左侧选项菜单选择 <code>DNS</code></p>
+
+
+
+<img src="https://vip2.loli.io/2023/05/25/AZ89f3BYdKMJ2uX.png" alt="打开代理状态"  loading="lazy" referrerPolicy="no-referrer">
+
+
+<p>编辑添加的那个记录，把代理状态打开，即是 <code>已代理</code>，云朵图标为点亮状态，然后保存</p>
+
+
+
+<img src="https://vip2.loli.io/2023/05/25/W1MmVt69sZvQzAu.png" alt="代理状态已打开"  loading="lazy" referrerPolicy="no-referrer">
+
+
+<p>这是更改后的样子，代理状态，已代理，云朵图标点亮。</p>
+
+<h2 id="好了">好了</h2>
+
+<p>把云朵点亮之后，流量就是走的 Cloudflare 中转了。</p>
+
+<p>提醒，把云朵点亮就是流量通过  Cloudflare 中转，点灰云朵图标就是直连，不走  Cloudflare 中转。</p>
+
+<h2 id="测速">测速</h2>
+
+<p>你看这速度还行吧</p>
+
+
+
+<img src="https://vip2.loli.io/2023/05/25/5QGRJ4qPmOk9nsE.jpg" alt="测试中转速度"  loading="lazy" referrerPolicy="no-referrer">
+
+
+<p>不可能，绝对不可能（假的</p>
 
 <h2 id="备注">备注</h2>
 
-<p>如果你的 VPS 位置是在美国西海岸的话，速度应该还算可以吧，如果不是在美国西海岸，那么也许速度会很慢，不过好在不用担心 IP 被墙或者能让被墙的 IP 重生也挺好的。难道不是么？<br />
-如果你使用移动网络的话，那么 Cloudflare 的中转节点可能会在香港，速度也许会不错 (不完全保证)。</p>
+<p>如果你的 VPS 位置是在美国西海岸的话，速度应该还算可以吧，如果不是在美国西海岸，那么也许速度会很慢</p>
 
-<h2 id="无限域名备用">无限域名备用</h2>
+<p>不过好在能防止 IP 被墙，或者让 IP 起死回生，也挺好的，难道不是么？</p>
 
-<p>懒得写了，自己悟吧&hellip;<br />
-反正绝大多数人只要知道怎么把墙的 IP 救活就行&hellip;<br />
-算啦，我还是提示一下吧，WebSocket 协议，80 端口，Cloudflare 的 Crypto 选项卡 SSL 为 Flexible<br />
-如果没有太多必要，不需要折腾这</p>
+<p>如果你使用移动网络的话，那么 Cloudflare 的中转节点可能会在香港，速度也许会不错 (不完全保证)。</p>
+
+<h2 id="其他">其他</h2>
+
+<p>添加 DNS 记录的时候，那个名称你可以随便起的，只要解析到你的 VPS IP，添加中转配置时写上你的域名即可</p>
+
+<p>我们只是用了 ai 名称做为示例</p>
+
+<h2 id="懂的都懂">懂的都懂</h2>
+
+<p>文章只是示例了使用 vmess-ws-tls 中转，其他 *TLS 协议也可以中转的，但是我不想写了，拜托兄弟你头脑灵光一点！星不星呀</p>
+
+<p>提示：记得要在左侧选项菜单 <code>网络</code> 里面把所有的选项都打开，比如说 <code>gRPC</code></p>
+
+<p>你也可以换成 vless-ws-tls 协议，可能速度会快一亿亿点哦！</p>
+
+<p>不懂就算了！真是的</p>
+
+<h2 id="优化速度">优化速度</h2>
+
+<p>你可以弄优选 Cloudflare IP 啊，我没弄过，也不需要弄，毕竟你看我测速也还行，够用了。</p>
+
+<h2 id="v2ray-脚本说明">V2Ray 脚本说明</h2>
+
+<p>请看：<a href="https://github.com/233boy/v2ray/wiki/V2Ray一键安装脚本" rel="nofollow" target="_blank">V2Ray一键安装脚本</a></p>
+
+<p>哎呀，虽然脚本很好用，但是为了你能更加了解掌握各种使用技巧，还是建议看一虾吧！</p>
 
 <h2 id="结束">结束</h2>
 
-<p>哇，没有图文教程你就看不懂的话，我能怎么办，我也很绝望，我更加迷茫</p>
+<p>明明这么简单的东西，看不懂的建议把电脑砸了，然后去报读幼儿园。</p>
 
-<p><img src="https://affpass.com/ga?ga=v2ray&amp;dt=github.wiki.5&amp;dr=&amp;ul=zh-CN&amp;sd=24-bit&amp;sr=&amp;vp=&amp;z=0&amp;dl=/github/5" alt="" /></p>
+<p>复制粘贴我文章的抄袭狗没鸡鸡！</p>
 </div>

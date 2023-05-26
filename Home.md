@@ -1,10 +1,6 @@
 <div class="post-content">
 <p>这里收集一下本人网站所撰写的文章，因为域名老是被墙，换来换去的，现在直接在 WIKI 备份一下，不怕看不到了。</p>
 
-<h2 id="资助-v2ray">资助 V2Ray</h2>
-
-<p>请考虑 <a href="https://www.v2ray.com/chapter_00/02_donate.html" rel="nofollow" target="_blank">资助 V2Ray 发展</a>。</p>
-
 <h2 id="温馨提示">温馨提示</h2>
 
 <p>我们的永久域名是：<a href="https://233v2.com" rel="nofollow" target="_blank">233v2.com</a> (已墙)</p>
@@ -13,7 +9,7 @@
 
 <h2 id="v2ray-一键安装脚本">V2Ray 一键安装脚本</h2>
 
-<p><a href="https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC" rel="nofollow" target="_blank">V2Ray 一键安装脚本</a></p>
+<p><a href="https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC" rel="nofollow" target="_blank">V2Ray一键安装脚本</a></p>
 
 <h2 id="v2ray-搭建教程">V2Ray 搭建教程</h2>
 
