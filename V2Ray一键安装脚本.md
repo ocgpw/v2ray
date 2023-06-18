@@ -890,6 +890,18 @@ Just My Socks 详细图文购买教程
 
 <p><a href="https://233boy.com/v2ray/caddy-auto-tls/" rel="nofollow" target="_blank">V2Ray 脚本自动 TLS 帮助说明</a></p>
 
+<h2 id="备份脚本">备份脚本</h2>
+
+<p>考虑到可能会有不可描述的事情发生，你可以将 Xray 脚本备份一下以防止万一。</p>
+
+<p>Github 地址：<a href="https://github.com/233boy/Xray" rel="nofollow" target="_blank">https://github.com/233boy/Xray</a></p>
+
+<p>你可以 Fork 一份，如果本人一键删库跑路了，你也可以照样正常安装使用</p>
+
+<p>安装命令如下：</p>
+<pre><code>wget https://github.com/233boy/v2ray/archive/master.tar.gz -O v2ray-master.tar.gz;tar -zxvf v2ray-master.tar.gz;cd v2ray-master;chmod +x i*;./i* -l</code></pre>
+<p>记得要把安装命令中的 <code>233boy</code> 更改成你的 Github 用户名</p>
+
 <h2 id="关注我们">关注我们</h2>
 
 <p>Telegram 频道：<a href="https://t.me/tg2333" rel="nofollow" target="_blank">https://t.me/tg2333</a></p>
