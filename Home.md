@@ -3,7 +3,7 @@
 
 <h2 id="温馨提示">温馨提示</h2>
 
-<p>我们的永久域名是：<a href="https://233v2.com" rel="nofollow" target="_blank">233v2.com</a> (已墙)</p>
+<p>我们的永久域名是：<a href="https://233boy.com" rel="nofollow" target="_blank">233boy.com</a> (已墙)</p>
 
 <p>此 WIKI 仅作备份使用，内容可能无法与网站保持同步。</p>
 
