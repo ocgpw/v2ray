@@ -892,9 +892,9 @@ Just My Socks 详细图文购买教程
 
 <h2 id="备份脚本">备份脚本</h2>
 
-<p>考虑到可能会有不可描述的事情发生，你可以将 Xray 脚本备份一下以防止万一。</p>
+<p>考虑到可能会有不可描述的事情发生，你可以将 V2Ray 脚本备份一下以防止万一。</p>
 
-<p>Github 地址：<a href="https://github.com/233boy/Xray" rel="nofollow" target="_blank">https://github.com/233boy/Xray</a></p>
+<p>Github 地址：<a href="https://github.com/233boy/v2ray" rel="nofollow" target="_blank">https://github.com/233boy/v2ray</a></p>
 
 <p>你可以 Fork 一份，如果本人一键删库跑路了，你也可以照样正常安装使用</p>
 
