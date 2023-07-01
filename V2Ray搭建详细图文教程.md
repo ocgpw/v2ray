@@ -163,28 +163,6 @@ Just My Socks 详细图文购买教程
 </tr>
 
 <tr>
-<td align="center"><strong>推荐，多机房切换</strong></td>
-<td align="center">2 核</td>
-<td align="center">2024 MB</td>
-<td align="center">40 GB</td>
-<td align="center">1 G</td>
-<td align="center">2 TB / 月</td>
-<td align="center"><strong>$35 / 季</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/131" rel="nofollow" target="_blank">购买</a></td>
-</tr>
-
-<tr>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td align="center">-</td>
-</tr>
-
-<tr>
 <td align="center">CN2 GIA</td>
 <td align="center">2 核</td>
 <td align="center">1 GB</td>
@@ -611,17 +589,6 @@ Just My Socks 详细图文购买教程
 </thead>
 
 <tbody>
-<tr>
-<td align="center"><strong>推荐，多机房切换</strong></td>
-<td align="center">2 核</td>
-<td align="center">2024 MB</td>
-<td align="center">40 GB</td>
-<td align="center">1 G</td>
-<td align="center">2 TB / 月</td>
-<td align="center"><strong>$35 / 季</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/131" rel="nofollow" target="_blank">购买</a></td>
-</tr>
-
 <tr>
 <td align="center">普通</td>
 <td align="center">2 核</td>
