@@ -862,6 +862,12 @@ Just My Socks 详细图文购买教程
 
 <p>使用：<code>v2ray uninstall</code></p>
 
+<h2 id="中转">中转</h2>
+
+<p>如果你需要使用 A 机器转发流量到 B 机器</p>
+
+<p>那么请看：<a href="https://233boy.com/v2ray/v2ray-dokodemo-door/">V2Ray 脚本中转教程</a></p>
+
 <h2 id="帮助">帮助</h2>
 
 <p>哎呀，不想写了，其他的一些参数用法，请查看帮助</p>
