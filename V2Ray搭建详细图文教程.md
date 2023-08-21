@@ -9,18 +9,18 @@
 
 <p>由于 V2Ray 的配置对于小白来说是非常不友好的，</p>
 
-<p>所以此 V2Ray 教程的 V2Ray 服务器端配置将会使用我本人撰写的 <a href="https://github.com/233boy/v2ray/wiki/V2Ray一键安装脚本" rel="nofollow" target="_blank">V2Ray一键安装脚本</a></p>
+<p>所以此 V2Ray 教程的 V2Ray 服务器端配置将会使用我本人撰写的 <a href="https://github.com/233boy/v2ray/wiki/V2Ray一键安装脚本" target="_blank">V2Ray一键安装脚本</a></p>
 
 <p>这是一个对小白友好的 V2Ray 一键脚本，简化 V2Ray 安装和管理，你还可以快速打开 BBR 来优化 V2Ray<br />
 <!-- 此教程为 Windows 用户专属，如果你是 Mac 用户请查看：[V2Ray 一键搭建和优化详细图文教程 (Mac 用户专版)](/post/17/) --></p>
 
 <h2 id="v2ray">V2Ray</h2>
 
-<p>官网：<a href="https://www.v2fly.org/" rel="nofollow" target="_blank">https://www.v2fly.org/</a></p>
+<p>官网：<a href="https://www.v2fly.org/" target="_blank">https://www.v2fly.org/</a></p>
 
-<p><a href="https://www.v2fly.org/" rel="nofollow" target="_blank">V2Ray(Project V)</a> 相对于 Shadowsocks，V2Ray 更像全能选手，拥有更多可选择的协议 / 传输载体 (Socks、HTTP、TLS、TCP、mKCP、WebSocket )，还有强大的路由功能，不仅仅于此，它亦包含 Shadowsocks 组件，你只需要安装 V2Ray，你就可以使用所有的 V2Ray 相关的特性包括使用 Shadowsocks，由于 V2Ray 是使用 GO 语言所撰写的，天生的平台部署优势，下载即可使用，当然啦，由于 V2Ray 的配置相对来说是很繁琐的，毫无夸张的说</p>
+<p><a href="https://www.v2fly.org/" target="_blank">V2Ray(Project V)</a> 相对于 Shadowsocks，V2Ray 更像全能选手，拥有更多可选择的协议 / 传输载体 (Socks、HTTP、TLS、TCP、mKCP、WebSocket )，还有强大的路由功能，不仅仅于此，它亦包含 Shadowsocks 组件，你只需要安装 V2Ray，你就可以使用所有的 V2Ray 相关的特性包括使用 Shadowsocks，由于 V2Ray 是使用 GO 语言所撰写的，天生的平台部署优势，下载即可使用，当然啦，由于 V2Ray 的配置相对来说是很繁琐的，毫无夸张的说</p>
 
-<p>但是有了本人所写的 <a href="https://github.com/233boy/v2ray/wiki/V2Ray一键安装脚本" rel="nofollow" target="_blank">V2Ray一键安装脚本</a> 加持下，使用 V2Ray 便会显得轻松多了。</p>
+<p>但是有了本人所写的 <a href="https://github.com/233boy/v2ray/wiki/V2Ray一键安装脚本" target="_blank">V2Ray一键安装脚本</a> 加持下，使用 V2Ray 便会显得轻松多了。</p>
 
 <h2 id="流程">流程</h2>
 
@@ -48,9 +48,9 @@ Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端<br /
 
 <p>如果你只是单纯的翻，墙需求，可以购买机场的，不用自己搭建什么的，省心省力。</p>
 
-<p>机场推荐： <a href="https://on.affpass.com/go/jms" rel="nofollow" target="_blank">Just My Socks</a></p>
+<p>机场推荐： <a href="https://on.affpass.com/go/jms" target="_blank">Just My Socks</a></p>
 
-<p><a href="https://on.affpass.com/go/jms" rel="nofollow" target="_blank">Just My Socks</a> 是搬瓦工提供的 Shadowsocks &amp; V2Ray 服务，不怕跑路，非国人商家，无须担心 IP 被墙问题。</p>
+<p><a href="https://on.affpass.com/go/jms" target="_blank">Just My Socks</a> 是搬瓦工提供的 Shadowsocks &amp; V2Ray 服务，不怕跑路，非国人商家，无须担心 IP 被墙问题。</p>
 
 <p>购买教程：
 <a href="https://bwgjms.com/post/how-to-buy-justmysocks/" target="_blank">
@@ -64,7 +64,7 @@ Just My Socks 详细图文购买教程
 
 <p>想要搭建 V2Ray， 拥有一个 VPS 是必需的。</p>
 
-<p>我们推荐使用：<a href="https://on.affpass.com/go/bwg" rel="nofollow" target="_blank">搬瓦工（Bandwagon Host）</a> VPS 来搭建 V2Ray</p>
+<p>我们推荐使用：<a href="https://on.affpass.com/go/bwg" target="_blank">搬瓦工（Bandwagon Host）</a> VPS 来搭建 V2Ray</p>
 
 <p>搬瓦工是一个对中国用户极度友好的 VPS 商家，有香港，CN2 GIA 优化线路，并且支持支付宝付款，当然也是支持退款的！</p>
 
@@ -93,7 +93,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">500GB / 月</td>
 <td align="center"><strong>$89.99 / 月</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/95" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/95" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -104,7 +104,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">1000GB / 月</td>
 <td align="center">$155.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/96" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/96" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -115,7 +115,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">2000GB / 月</td>
 <td align="center">$299.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/97" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/97" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -126,7 +126,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">4000GB / 月</td>
 <td align="center">$589.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/98" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/98" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -137,7 +137,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">6000GB / 月</td>
 <td align="center">$989.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/122" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/122" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -148,7 +148,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">8000GB / 月</td>
 <td align="center">$1889.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/124" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/124" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -170,7 +170,7 @@ Just My Socks 详细图文购买教程
 <td align="center"><strong>2.5 G</strong></td>
 <td align="center">1000GB / 月</td>
 <td align="center"><strong>$49.99 / 季</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/87" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/87" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -181,7 +181,7 @@ Just My Socks 详细图文购买教程
 <td align="center"><strong>2.5 G</strong></td>
 <td align="center">2000GB / 月</td>
 <td align="center">$89.99 / 季</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/88" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/88" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -192,7 +192,7 @@ Just My Socks 详细图文购买教程
 <td align="center"><strong>2.5 G</strong></td>
 <td align="center">3000GB / 月</td>
 <td align="center">$56.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/89" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/89" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -203,7 +203,7 @@ Just My Socks 详细图文购买教程
 <td align="center"><strong>5 G</strong></td>
 <td align="center">5000GB / 月</td>
 <td align="center">$86.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/90" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/90" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -214,7 +214,7 @@ Just My Socks 详细图文购买教程
 <td align="center"><strong>5 G</strong></td>
 <td align="center">8000GB / 月</td>
 <td align="center">$159.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/91" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/91" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -225,7 +225,7 @@ Just My Socks 详细图文购买教程
 <td align="center"><strong>10 G</strong></td>
 <td align="center">10000GB / 月</td>
 <td align="center">$289.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/92" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/92" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -236,7 +236,7 @@ Just My Socks 详细图文购买教程
 <td align="center"><strong>10 G</strong></td>
 <td align="center">12000GB / 月</td>
 <td align="center">$549.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/93" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/93" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -258,7 +258,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1.2 G</td>
 <td align="center">500GB / 月</td>
 <td align="center">$89.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/108" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/108" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -269,7 +269,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1.2 G</td>
 <td align="center">1000GB / 月</td>
 <td align="center">$159.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/109" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/109" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -280,7 +280,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1.2G</td>
 <td align="center">2000GB / 月</td>
 <td align="center">$299.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/110" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/110" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -291,7 +291,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1.2 G</td>
 <td align="center">4000GB / 月</td>
 <td align="center">$589.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/111" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/111" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -302,7 +302,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1.2 G</td>
 <td align="center">6000GB / 月</td>
 <td align="center">$989.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/123" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/123" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -313,7 +313,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1.2 G</td>
 <td align="center">8000GB / 月</td>
 <td align="center">$1889.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/125" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/125" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -335,7 +335,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">500GB / 月</td>
 <td align="center">$19.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/114" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/114" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -346,7 +346,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">1000GB / 月</td>
 <td align="center">$32.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/115" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/115" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -357,7 +357,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">2000GB / 月</td>
 <td align="center">$56.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/116" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/116" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -368,7 +368,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">3000GB / 月</td>
 <td align="center">$86.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/117" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/117" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -379,7 +379,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">4000GB / 月</td>
 <td align="center">$159.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/118" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/118" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -390,7 +390,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">5000GB / 月</td>
 <td align="center">$289.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/119" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/119" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -401,7 +401,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">6000GB / 月</td>
 <td align="center">$549.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/120" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/120" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -423,7 +423,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">1000GB / 月</td>
 <td align="center"><strong>$49.99 / 年</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/57" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/57" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -434,7 +434,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">2000GB / 月</td>
 <td align="center">$52.99 / 半年</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/58" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/58" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -445,7 +445,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">3000GB / 月</td>
 <td align="center">$59.99 / 季</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/59" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/59" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -456,7 +456,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">5000GB / 月</td>
 <td align="center">$39.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/67" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/67" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -467,7 +467,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">8000GB / 月</td>
 <td align="center">$79.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/68" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/68" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -478,7 +478,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">12000GB / 月</td>
 <td align="center">$99.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/106" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/106" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -489,7 +489,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">16000GB / 月</td>
 <td align="center">$129.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/107" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/107" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -511,7 +511,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">1 TB / 月</td>
 <td align="center"><strong>$49.99 / 年</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/44" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/44" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -522,7 +522,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">2 TB / 月</td>
 <td align="center">$52.99 / 半年</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/45" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/45" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -533,7 +533,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">3 TB / 月</td>
 <td align="center">$19.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/46" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/46" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -544,7 +544,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">4 TB / 月</td>
 <td align="center">$39.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/47" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/47" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -555,7 +555,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">5 TB / 月</td>
 <td align="center">$79.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/48" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/48" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -566,7 +566,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">6 TB / 月</td>
 <td align="center">$119.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/49" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/49" target="_blank">购买</a></td>
 </tr>
 </tbody>
 </table>
@@ -597,7 +597,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">1 TB / 月</td>
 <td align="center"><strong>$49.99 / 年</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/44" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/44" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -608,7 +608,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">1000GB / 月</td>
 <td align="center"><strong>$49.99 / 年</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/57" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/57" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -619,7 +619,7 @@ Just My Socks 详细图文购买教程
 <td align="center"><strong>2.5 G</strong></td>
 <td align="center">1000GB / 月</td>
 <td align="center"><strong>$49.99 / 季</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/87" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/87" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -630,7 +630,7 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">500GB / 月</td>
 <td align="center">$19.99 / 月</td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/114" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/114" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -641,13 +641,13 @@ Just My Socks 详细图文购买教程
 <td align="center">1 G</td>
 <td align="center">500GB / 月</td>
 <td align="center"><strong>$89.99 / 月</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/95" rel="nofollow" target="_blank">购买</a></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/95" target="_blank">购买</a></td>
 </tr>
 </tbody>
 </table>
 
 
-<p>没有找到合适的套餐？你可以前往官网详细查看：<a href="https://on.affpass.com/go/bwg" rel="nofollow" target="_blank">https://bwh89.net/cart.php</a></p>
+<p>没有找到合适的套餐？你可以前往官网详细查看：<a href="https://on.affpass.com/go/bwg" target="_blank">https://bwh89.net/cart.php</a></p>
 
 <p>哪个套餐好？<br />
 一般来说，<strong>推荐购买 香港线路</strong> 或 <strong>CN2 GIA 线路</strong>，或者哪个便宜选择那个，说着当然如果你使用量比较多或者想要分享给同学和朋友一起用的话，选择合适的套餐即可。又或者你土豪的话，选择最贵的也行。</p>
@@ -757,7 +757,7 @@ Just My Socks 购买及使用
 
 <p>确保你已经成功付款之后</p>
 
-<p>打开：<a href="https://bwh89.net/services" rel="nofollow" target="_blank">https://bwh89.net/services</a></p>
+<p>打开：<a href="https://bwh89.net/services" target="_blank">https://bwh89.net/services</a></p>
 
 <p>在 Manage 那选择 <code>Open KiwiVM</code></p>
 
@@ -812,7 +812,7 @@ Just My Socks 购买及使用
 
 <p>Xshell 是一个易用的 SSH 客户端，要登录 VPS，当然需要 SSH 客户端</p>
 
-<p><a href="https://file.affpass.com/file/Xshell+Xftp.zip" rel="nofollow" target="_blank">Xshell 下载链接点我</a></p>
+<p><a href="https://file.affpass.com/file/Xshell+Xftp.zip" target="_blank">Xshell 下载链接点我</a></p>
 
 <p>这是一个绿色版本的 Xshell ，打开链接后，就点击 <code>下载</code>，下载好了之后，就双击打开，然后点击 <code>浏览...</code> 可以选择解压的路径，比如说 D 盘，之后再选择 <code>解压</code> 即可。</p>
 
@@ -914,7 +914,7 @@ Just My Socks 购买及使用
 
 <p>测试端口是否能连接上：</p>
 
-<p>打开：<a href="https://ping.sx/check-port" rel="nofollow" target="_blank">https://ping.sx/check-port</a></p>
+<p>打开：<a href="https://ping.sx/check-port" target="_blank">https://ping.sx/check-port</a></p>
 
 <p>Target 写你的 VPS IP，Port 写 V2Ray 的端口，然后点击 <code>Check</code>，如果 REACHABILITY 显示 <code>Timeout</code>，那是无法连接上端口</p>
 
@@ -1082,7 +1082,7 @@ Just My Socks 购买及使用
 
 <h2 id="v2ray-脚本说明">V2Ray 脚本说明</h2>
 
-<p>请看：<a href="https://github.com/233boy/v2ray/wiki/V2Ray一键安装脚本" rel="nofollow" target="_blank">V2Ray一键安装脚本</a></p>
+<p>请看：<a href="https://github.com/233boy/v2ray/wiki/V2Ray一键安装脚本" target="_blank">V2Ray一键安装脚本</a></p>
 
 <p>哎呀，虽然脚本很好用，但是为了你能更加了解掌握各种使用技巧，还是建议看一虾吧！</p>
 
@@ -1092,13 +1092,23 @@ Just My Socks 购买及使用
 
 <h2 id="反馈问题">反馈问题</h2>
 
-<p>Telegram 群组：<a href="https://t.me/tg233boy" rel="nofollow" target="_blank">https://t.me/tg233boy</a></p>
+<p>Telegram 群组：<a href="https://t.me/tg233boy" target="_blank">https://t.me/tg233boy</a></p>
 
-<p>Github 反馈：<a href="https://github.com/233boy/v2ray/issues" rel="nofollow" target="_blank">https://github.com/233boy/v2ray/issues</a></p>
+<p>Github 反馈：<a href="https://github.com/233boy/v2ray/issues" target="_blank">https://github.com/233boy/v2ray/issues</a></p>
 
 <h2 id="分享">分享</h2>
 
 <p>如果这篇文章对你帮助的话，记得分享给你的小伙伴们哦！</p>
+
+<h2 id="机场备用">机场备用</h2>
+
+<p>为防止自建节点不可用，可考虑购买一个机场作为备用方案，以防止失联</p>
+
+<p>机场推荐： <a href="https://justmysocks.xyz/justmysocks-v2ray/" target="_blank">Just My Socks</a></p>
+
+<p><a href="https://justmysocks.xyz/justmysocks-v2ray/" target="_blank">Just My Socks</a> 是搬瓦工提供的服务，不怕跑路，非国人商家，无须担心 IP 被墙问题。</p>
+
+<p>购买教程：<a href="https://justmysocks.xyz/justmysocks-v2ray/" target="_blank">Just My Socks 购买及使用</a></p>
 
 <h2 id="其他">其他</h2>
 
