@@ -164,13 +164,13 @@ Just My Socks 详细图文购买教程
 
 <tr>
 <td align="center"><strong>限时推荐，CN2 GIA</strong></td>
-<td align="center">2 核</td>
-<td align="center">2G</td>
-<td align="center">40 GB</td>
-<td align="center"><strong>2.5 G</strong></td>
-<td align="center">1000GB / 月</td>
-<td align="center"><strong>$99.90 / 年</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/132" target="_blank">购买</a></td>
+<td align="center">1 核</td>
+<td align="center">512MB</td>
+<td align="center">10 GB</td>
+<td align="center">1G</td>
+<td align="center">500GB / 月</td>
+<td align="center"><strong>$49.99 / 年</strong></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/94" target="_blank">购买</a></td>
 </tr>
 
 <tr>
@@ -613,13 +613,13 @@ Just My Socks 详细图文购买教程
 <tbody>
 <tr>
 <td align="center"><strong>限时推荐，CN2 GIA</strong></td>
-<td align="center">2 核</td>
-<td align="center">2G</td>
-<td align="center">40 GB</td>
-<td align="center"><strong>2.5 G</strong></td>
-<td align="center">1000GB / 月</td>
-<td align="center"><strong>$99.90 / 年</strong></td>
-<td align="center"><a href="https://on.affpass.com/go/bwg/132" target="_blank">购买</a></td>
+<td align="center">1 核</td>
+<td align="center">512MB</td>
+<td align="center">10 GB</td>
+<td align="center">1G</td>
+<td align="center">500GB / 月</td>
+<td align="center"><strong>$49.99 / 年</strong></td>
+<td align="center"><a href="https://on.affpass.com/go/bwg/94" target="_blank">购买</a></td>
 </tr>
 
 <tr>
