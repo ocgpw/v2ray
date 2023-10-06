@@ -947,9 +947,11 @@ Just My Socks 购买及使用
 
 <p>测试端口是否能连接上：</p>
 
-<p>打开：<a href="https://ping.sx/check-port" target="_blank">https://ping.sx/check-port</a></p>
+<p>打开：<a href="https://tcp.ping.pe/" target="_blank">https://tcp.ping.pe/</a></p>
 
-<p>Target 写你的 VPS IP，Port 写 V2Ray 的端口，然后点击 <code>Check</code>，如果 REACHABILITY 显示 <code>Timeout</code>，那是无法连接上端口</p>
+<p>写上你的 VPS IP 跟端口；内容为 ip:端口，示例：<code>1.1.1.1:443</code>，然后点击 <code>Go</code>；或者直接回车</p>
+
+<p>如果显示 successful；证明端口能连接；如果显示 failed；那是无法连接上端口。</p>
 
 <p>提醒，你可以使用 <code>v2ray ip</code> 查看 VPS IP。</p>
 
@@ -957,9 +959,9 @@ Just My Socks 购买及使用
 
 <p><code>systemctl stop firewalld; systemctl disable firewalld; ufw disable</code></p>
 
-<p>关闭防火墙之后再测试一下端口是否通，如果不通，你可能还有外部防火墙没关，必须要能连接上端口才能正常使用。</p>
+<p>关闭防火墙之后再测试一下端口是否通，如果不通，你可能还有外部防火墙没关，<strong>必须要能连接上端口才能正常使用</strong>。</p>
 
-<p>如果 REACHABILITY 显示 <code>Reachable</code> 那就是能连接上端口，那就继续</p>
+<p>如果能连接上端口，那就继续</p>
 
 <p>使用 <code>v2ray add ss</code> 添加一个 SS 看看能不能正常使用，如果正常使用，证明运行没有问题。</p>
 

@@ -5,7 +5,7 @@
 
 <p>最好用的 V2Ray 脚本</p>
 
-<p>Github 地址：<a href="https://github.com/233boy/v2ray/tree/master" rel="nofollow" target="_blank">https://github.com/233boy/v2ray/tree/master</a></p>
+<p>Github 地址：<a href="https://github.com/233boy/v2ray/tree/master" target="_blank">https://github.com/233boy/v2ray/tree/master</a></p>
 
 <h2 id="特点">特点</h2>
 
@@ -76,9 +76,9 @@
 
 <p>如果你只是单纯的翻，墙需求，可以购买机场的，不用自己搭建什么的，省心省力。</p>
 
-<p>机场推荐： <a href="https://on.affpass.com/go/jms" rel="nofollow" target="_blank">Just My Socks</a></p>
+<p>机场推荐： <a href="https://on.affpass.com/go/jms" target="_blank">Just My Socks</a></p>
 
-<p><a href="https://on.affpass.com/go/jms" rel="nofollow" target="_blank">Just My Socks</a> 是搬瓦工提供的 Shadowsocks &amp; V2Ray 服务，不怕跑路，非国人商家，无须担心 IP 被墙问题。</p>
+<p><a href="https://on.affpass.com/go/jms" target="_blank">Just My Socks</a> 是搬瓦工提供的 Shadowsocks &amp; V2Ray 服务，不怕跑路，非国人商家，无须担心 IP 被墙问题。</p>
 
 <p>购买教程：
 <a href="https://bwgjms.com/post/how-to-buy-justmysocks/" target="_blank">
@@ -91,12 +91,12 @@ Just My Socks 详细图文购买教程
 <p>推荐使用 Xray 脚本，以使用最新的 VLESS-XTLS-uTLS-REALITY 协议</p>
 
 <blockquote>
-<p>请看：<a href="https://github.com/233boy/Xray/wiki/Xray一键安装脚本" rel="nofollow" target="_blank">Xray 一键安装脚本</a></p>
+<p>请看：<a href="https://github.com/233boy/Xray/wiki/Xray一键安装脚本" target="_blank">Xray 一键安装脚本</a></p>
 </blockquote>
 
 <h2 id="搭建教程">搭建教程</h2>
 
-<p>如果是新手，请看：<a href="https://github.com/233boy/v2ray/wiki/V2Ray搭建详细图文教程" rel="nofollow" target="_blank">V2Ray搭建详细图文教程</a></p>
+<p>如果是新手，请看：<a href="https://github.com/233boy/v2ray/wiki/V2Ray搭建详细图文教程" target="_blank">V2Ray搭建详细图文教程</a></p>
 
 <h2 id="安装">安装</h2>
 
@@ -117,7 +117,7 @@ Just My Socks 详细图文购买教程
 
 <p>理论上，绝大多数情况下 15 秒内会安装完成，条件允许的情况下仅需一秒即可完成安装！</p>
 
-<p>超过 15 秒的你应该考虑换 VPS 了，推荐使用 <a href="https://on.affpass.com/go/bwg" rel="nofollow" target="_blank">搬瓦工 VPS</a></p>
+<p>超过 15 秒的你应该考虑换 VPS 了，推荐使用 <a href="https://on.affpass.com/go/bwg" target="_blank">搬瓦工 VPS</a></p>
 
 <p>为方便你快速使用，脚本在安装完成后会自动创建一个 VMess-TCP 配置。</p>
 
@@ -167,9 +167,11 @@ Just My Socks 详细图文购买教程
 
 <p>测试端口是否能连接上：</p>
 
-<p>打开：<a href="https://ping.sx/check-port" rel="nofollow" target="_blank">https://ping.sx/check-port</a></p>
+<p>打开：<a href="https://tcp.ping.pe/" target="_blank">https://tcp.ping.pe/</a></p>
 
-<p>Target 写你的 VPS IP，Port 写 V2Ray 的端口，然后点击 <code>Check</code>，如果 REACHABILITY 显示 <code>Timeout</code>，那是无法连接上端口</p>
+<p>写上你的 VPS IP 跟端口；内容为 ip:端口，示例：<code>1.1.1.1:443</code>，然后点击 <code>Go</code>；或者直接回车</p>
+
+<p>如果显示 successful；证明端口能连接；如果显示 failed；那是无法连接上端口。</p>
 
 <p>提醒，你可以使用 <code>v2ray ip</code> 查看 VPS IP。</p>
 
@@ -177,9 +179,9 @@ Just My Socks 详细图文购买教程
 
 <p><code>systemctl stop firewalld; systemctl disable firewalld; ufw disable</code></p>
 
-<p>关闭防火墙之后再测试一下端口是否通，如果不通，你可能还有外部防火墙没关，必须要能连接上端口才能正常使用。</p>
+<p>关闭防火墙之后再测试一下端口是否通，如果不通，你可能还有外部防火墙没关，<strong>必须要能连接上端口才能正常使用</strong>。</p>
 
-<p>如果 REACHABILITY 显示 <code>Reachable</code> 那就是能连接上端口，那就继续</p>
+<p>如果能连接上端口，那就继续</p>
 
 <p>使用 <code>v2ray add ss</code> 添加一个 SS 看看能不能正常使用，如果正常使用，证明运行没有问题。</p>
 
@@ -464,7 +466,7 @@ Just My Socks 详细图文购买教程
 
 <p>提醒，如果你想要手动配置 TLS，请使用此选项，例如你想要用 NGINX 实现 TLS</p>
 
-<p>帮助说明：<a href="https://233boy.com/v2ray/no-auto-tls/" rel="nofollow" target="_blank">V2Ray 脚本 no-auto-tls 参数帮助说明</a></p>
+<p>帮助说明：<a href="https://233boy.com/v2ray/no-auto-tls/" target="_blank">V2Ray 脚本 no-auto-tls 参数帮助说明</a></p>
 
 <h2 id="name">[name]</h2>
 
@@ -894,13 +896,13 @@ Just My Socks 详细图文购买教程
 
 <h2 id="自动-tls-说明">自动 TLS 说明</h2>
 
-<p><a href="https://233boy.com/v2ray/caddy-auto-tls/" rel="nofollow" target="_blank">V2Ray 脚本自动 TLS 帮助说明</a></p>
+<p><a href="https://233boy.com/v2ray/caddy-auto-tls/" target="_blank">V2Ray 脚本自动 TLS 帮助说明</a></p>
 
 <h2 id="备份脚本">备份脚本</h2>
 
 <p>考虑到可能会有不可描述的事情发生，你可以将 V2Ray 脚本备份一下以防止万一。</p>
 
-<p>Github 地址：<a href="https://github.com/233boy/v2ray" rel="nofollow" target="_blank">https://github.com/233boy/v2ray</a></p>
+<p>Github 地址：<a href="https://github.com/233boy/v2ray" target="_blank">https://github.com/233boy/v2ray</a></p>
 
 <p>你可以 Fork 一份，如果本人一键删库跑路了，你也可以照样正常安装使用</p>
 
@@ -910,11 +912,11 @@ Just My Socks 详细图文购买教程
 
 <h2 id="关注我们">关注我们</h2>
 
-<p>Telegram 频道：<a href="https://t.me/tg2333" rel="nofollow" target="_blank">https://t.me/tg2333</a></p>
+<p>Telegram 频道：<a href="https://t.me/tg2333" target="_blank">https://t.me/tg2333</a></p>
 
-<p>Telegram 群组：<a href="https://t.me/tg233boy" rel="nofollow" target="_blank">https://t.me/tg233boy</a></p>
+<p>Telegram 群组：<a href="https://t.me/tg233boy" target="_blank">https://t.me/tg233boy</a></p>
 
 <h2 id="反馈问题">反馈问题</h2>
 
-<p><a href="https://github.com/233boy/v2ray/issues" rel="nofollow" target="_blank">https://github.com/233boy/v2ray/issues</a></p>
+<p><a href="https://github.com/233boy/v2ray/issues" target="_blank">https://github.com/233boy/v2ray/issues</a></p>
 </div>
