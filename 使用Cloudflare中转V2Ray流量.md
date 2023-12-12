@@ -23,7 +23,7 @@
 
 <p>必须拥有一个域名。</p>
 
-<p>打开：<a href="https://dash.cloudflare.com/sign-up" rel="nofollow" target="_blank">https://dash.cloudflare.com/sign-up</a></p>
+<p>打开：<a href="https://dash.cloudflare.com/sign-up" target="_blank">https://dash.cloudflare.com/sign-up</a></p>
 
 <p>注册一个 Cloudflare 账号，有账号的话你就登录啊</p>
 
@@ -138,6 +138,33 @@
 
 <p>提醒，把云朵点亮就是流量通过  Cloudflare 中转，点灰云朵图标就是直连，不走  Cloudflare 中转。</p>
 
+<h2 id="获取真实客户端ip">获取真实客户端IP</h2>
+
+<p>考虑到有些人会有某些特殊需求，因为套 CF 了默认情况在查看日志的时候会显示客户端 IP 是 CF 的。</p>
+
+<p>如果你需要获取真实的客户端IP，得更改一下 Caddy 的配置</p>
+
+<p>在 /etc/caddy/233boy/xxx.conf 找到你的 caddy 配置文件，（xxx 指的是你的域名）</p>
+
+<p>默认配置类似如下：</p>
+<pre><code>xxx:443 {
+reverse_proxy /56f7be67-809f-4f47-8cae-9bffa908adf5 127.0.0.1:2333
+import /etc/caddy/233boy/xxx.conf.add
+}</code></pre>
+<p>最终更改的配置如下：</p>
+<pre><code>xxx:443 {
+reverse_proxy /56f7be67-809f-4f47-8cae-9bffa908adf5 127.0.0.1:2333 {
+header_up X-Real-IP {header.CF-Connecting-IP}
+header_up X-Forwarded-For {header.CF-Connecting-IP}
+}
+import /etc/caddy/233boy/xxx.conf.add
+}</code></pre>
+<p>原则上，你仅需要更改增加一下 header_up 选项指定 IP 为 CF 转发就好了，</p>
+
+<p>记得不要瞎改别的啊！</p>
+
+<p>改好了要重启一下 Caddy：<code>v2ray restart caddy</code></p>
+
 <h2 id="测速">测速</h2>
 
 <p>你看这速度还行吧</p>
@@ -179,7 +206,7 @@
 
 <h2 id="v2ray-脚本说明">V2Ray 脚本说明</h2>
 
-<p>请看：<a href="https://github.com/233boy/v2ray/wiki/V2Ray一键安装脚本" rel="nofollow" target="_blank">V2Ray一键安装脚本</a></p>
+<p>请看：<a href="https://github.com/233boy/v2ray/wiki/V2Ray一键安装脚本" target="_blank">V2Ray一键安装脚本</a></p>
 
 <p>哎呀，虽然脚本很好用，但是为了你能更加了解掌握各种使用技巧，还是建议看一虾吧！</p>
 
